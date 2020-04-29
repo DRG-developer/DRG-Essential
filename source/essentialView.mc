@@ -48,11 +48,12 @@ class EssentialView extends WatchUi.WatchFace {
 		var steps;
 		var goal;
 		var needsRedraw;
+		var HR = false;
 		var fullRedraw = false;
 		
 		var time;
 		var percentage;
-		var stairsIcon;
+		var complicationIcon;
 		
 		
 		var battPercent = null;
@@ -62,16 +63,20 @@ class EssentialView extends WatchUi.WatchFace {
 		var goalDrawn = false;
 		
 		var activityInfo = null;
+		
 		function initialize(){
 			WatchFace.initialize();		
 		}
 		
 		function onLayout(dc){
-			//if (System.getDeviceSettings() has :FloorsClimbed) {
-				stairsIcon = WatchUi.loadResource(Rez.Drawables.StairsIcon);
-           // } else {
-			//	stairsIcon = null;
-            //}
+			if (ActivityMonitor.getInfo() has :floorsClimbed) { // and the setting is enabled. 	
+				complicationIcon = WatchUi.loadResource(Rez.Drawables.StairsIcon);
+            } else if (ActivityMonitor.getInfo() has :HSDf){ //heart rate field
+				complicationIcon = WatchUi.loadResource(Rez.Drawables.HeartRate);
+				HR = true;
+            } else{
+				complicationIcon = WatchUi.loadResource(Rez.Drawables.inherit);
+			}
 			
 		
 			XSFont= WatchUi.loadResource(Rez.Fonts.XTinyFont);
@@ -82,8 +87,7 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			scrHeight = dc.getHeight();
 			scrRadius = scrHeight / 2;
-			
-			var scrShape;
+		
 		
 			
 			arcYPoint = scrRadius - 20;
@@ -125,9 +129,11 @@ class EssentialView extends WatchUi.WatchFace {
 			}
 			
 			if(fullRedraw==true){
+				//dc.setColor(colBLACK, colBLACK);
+				//dc.fillCirlce(scrRadius, scrRadius, scrRadius);
 				drawDateString(dc);
-				drawBattComplication(dc);
 				goalDrawn = false;
+				drawBattComplication(dc);		
 			}
 			
 			dc.setColor(colBLACK, colTRANSPARENT);
@@ -137,11 +143,9 @@ class EssentialView extends WatchUi.WatchFace {
 			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 			dc.clearClip();
 			
-			drawStepComplication(dc);
-			
-			if (activityInfo has :floorsClimbed) {
-				drawStairClimbed(dc);
-		    } 
+			//drawStepComplication(dc);
+			drawComplication(dc);
+		    
 			
 			
 			battPercent = Sys.getSystemStats().battery;
@@ -164,13 +168,14 @@ class EssentialView extends WatchUi.WatchFace {
 		
 			dc.setColor(colBLACK, colTRANSPARENT);
 			for(i = 0; i < battCircleThickness; i++){
-				dc.drawArc(scrRadius, scrRadius, scrRadius - i, 0, 0, 360);
+				dc.drawArc(scrRadius, scrRadius, scrRadius - i, 0, 90, ((battPercent * 0.01) * 360) + 90);
 			}
 			dc.setColor(colACCENT, colTRANSPARENT);
 			for(i = 0; i < battCircleThickness; i++){
 				dc.drawArc(scrRadius, scrRadius, scrRadius - i, 0, 90, ((battPercent * 0.01) * 360) + 90);
 				
 			}
+			
 			oldBattPercent = battPercent;
 		}
 		
@@ -231,11 +236,9 @@ class EssentialView extends WatchUi.WatchFace {
 			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 
 			 timeStr1 = Lang.format("$1$", [time.hour]);
-			 timeStr2 = Lang.format("$1$", [time.min]);
+			 timeStr2 = Lang.format("$1$", [time.min(%02d)]);
 		
-			if(timeStr2.toNumber() < 10){
-				timeStr2 = Lang.format("0$1$", [time.min]);
-			}
+		
 				
 			dc.setColor(colTIME, colTRANSPARENT);
 			dc.drawText(scrRadius + 4, scrRadius - 45, MFont, timeStr1, 0);
@@ -245,14 +248,21 @@ class EssentialView extends WatchUi.WatchFace {
 		
 	
 		
-		function drawStairClimbed(dc){
+		function drawComplication(dc){
 			
 			dc.setColor(colBLACK, colTRANSPARENT);
 			dc.fillRectangle(110, 51, 8, 10);
 			dc.setColor(colGRAY, colTRANSPARENT);
-			dc.drawBitmap(scrRadius - 15, 45, stairsIcon);
+			dc.drawBitmap(scrRadius - 15, 45, complicationIcon);
 			dc.setColor(colWHITE, colTRANSPARENT);
-			dc.drawText(scrRadius, 53, XSFont, (activityInfo.floorsClimbed == null ? 0 : activityInfo.floorsClimbed), 1);		
+			var tmp 
+			if(HR == false){
+				tmp = (activityInfo.floorsClimbed == null ?  0 :  activityInfo.floorsClimbed)
+			} else if(HR == true){
+				tmp = AcitivityMonitor.Heart
+			}
+			dc.drawText(scrRadius, 53, XSFont, , 1);	
+			tmp = null;	
 		}
 
 }

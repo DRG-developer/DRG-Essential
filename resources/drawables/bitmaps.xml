@@ -1,5 +1,10 @@
  <resources>  
-   <bitmap id="StairsIcon" filename="icons/stairs.png">
-     
+   <bitmap id="StairsIcon" filename="icons/stairs.png"> 
     </bitmap>
+    
+	<bitmap id="HeartRate" filename="icons/HR.png">
+	</bitmap>
+	
+	<bitmap id="inherit" filename="icons/inherit.png">
+	</bitmap>
  </resources>
