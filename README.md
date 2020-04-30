@@ -26,9 +26,5 @@ DGA Essential is a watchface with only the essential stuff:
         <li> possibly UV index later </li
      </ul> 
   </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
+
  </ul>
