@@ -100,9 +100,9 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			arcYPoint = scrRadius - 20;
 			
-			//dc.setColor(colBLACK, colTRANSPARENT);
-			//Sys.println("yknow");
-			//Sys.println(colBLACK);
+			dc.setColor(colBLACK, colTRANSPARENT);
+			Sys.println("onLayout");
+			Sys.println(colBLACK);
 			dc.fillCircle(scrRadius, scrRadius, scrRadius);
 			
 			
@@ -291,6 +291,8 @@ class EssentialView extends WatchUi.WatchFace {
 	
 		
 		function drawComplication(dc){
+			Sys.println("drawComplication");
+			
 			if(datafield == -1) {
 				return;
 			}  
