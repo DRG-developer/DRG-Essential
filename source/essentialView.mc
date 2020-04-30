@@ -44,7 +44,7 @@ class EssentialView extends WatchUi.WatchFace {
 		var drwSteps = 0;
 		var timeStr1;
 		var timeStr2;
-		var production = true;
+		var production = false;
 		
 		var steps;
 		var goal;
@@ -148,6 +148,7 @@ class EssentialView extends WatchUi.WatchFace {
 		}
 		function onShow(){
 				needsRedraw=true;
+				//Sys.println("onShow");
 		}
 		
 		function onEnterSleep(){
