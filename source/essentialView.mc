@@ -21,12 +21,12 @@ class EssentialView extends WatchUi.WatchFace {
 		var i;  // counter for loops;
 		
 		
-		var colBLACK       = 0x00000; // colors
-		var colACCENT      = 0xFFFF00;
-		var colTIME        = 0xFFFF00;
-		//var colGRAY        = 0x555555;
-		var colGRAY        = 0xAAAAAA;
-		var colWHITE       = 0xFFFFFF;
+		var colBLACK  = 0x000000;
+		var colACCENT = 0xFFFF00; 
+		var colTIME   = 0xFFFF00; 
+		var colGRAY   = 0xAAAAAA;
+		var colWHITE  = 0xFFFFFF;      
+		
 		var colTRANSPARENT = Graphics.COLOR_TRANSPARENT;
 		
 		var dayOfWeekArr = ["", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -44,13 +44,15 @@ class EssentialView extends WatchUi.WatchFace {
 		var drwSteps = 0;
 		var timeStr1;
 		var timeStr2;
+		var production = true;
 		
 		var steps;
 		var goal;
 		var needsRedraw;
-		var HR = false;
+		var datafield = 1; //-1 = none, 0 = stairs, 1= HR
 		var fullRedraw = false;
 		
+		var app = Application.getApp();
 		var time;
 		var percentage;
 		var complicationIcon;
@@ -65,15 +67,21 @@ class EssentialView extends WatchUi.WatchFace {
 		var activityInfo = null;
 		
 		function initialize(){
-			WatchFace.initialize();		
+			WatchFace.initialize();	
+			getSett();	
 		}
 		
+
+		
 		function onLayout(dc){
-			if (ActivityMonitor.getInfo() has :floorsClimbed) { // and the setting is enabled. 	
+			
+			
+			if (datafield == 0) { // stairs climbed
 				complicationIcon = WatchUi.loadResource(Rez.Drawables.StairsIcon);
-            } else if (ActivityMonitor.getInfo() has :HSDf){ //heart rate field
+				
+            } else if (datafield == 1){ //heart rate field
 				complicationIcon = WatchUi.loadResource(Rez.Drawables.HeartRate);
-				HR = true;
+			
             } else{
 				complicationIcon = WatchUi.loadResource(Rez.Drawables.inherit);
 			}
@@ -92,8 +100,10 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			arcYPoint = scrRadius - 20;
 			
-			dc.setColor(colBLACK, colTRANSPARENT);
-			dc.fillCircle(scrRadius, scrRadius, scrRadius - battCircleThickness);
+			//dc.setColor(colBLACK, colTRANSPARENT);
+			//Sys.println("yknow");
+			//Sys.println(colBLACK);
+			dc.fillCircle(scrRadius, scrRadius, scrRadius);
 			
 			
 			
@@ -101,10 +111,40 @@ class EssentialView extends WatchUi.WatchFace {
 			for(i = 0; i < stepBarThickness; i++){
 				dc.drawArc(scrRadius, scrRadius, arcYPoint - i, 0, 210 + i / 4, 330 - i / 3.8);
 			}
-			
-			
 	
-	
+		}
+		function getSett(){
+			if(production == false){ return;}
+			colGRAY   = switchCol(app.getProperty("colGray"));
+			colACCENT = switchCol(app.getProperty("colAccent"));
+			colTIME   = switchCol(app.getProperty("colTime"));
+			colBLACK  = switchCol(app.getProperty("colBg"));
+			colWHITE  = 0xFFFFFF;
+			colBLACK  = 0x000000;
+			datafield = app.getProperty("DataField");
+			Sys.println(colBLACK);
+			Sys.println(app.getProperty("colAccent"));
+		}
+		function switchCol(x){
+			
+			Sys.println(x);
+			if(x == 0){
+				return 0xFFFF00;
+			} else if( x == 1){
+				return 0xFFFF55;
+			}
+			else if( x == 2){
+				return 0xAAAAAA;
+			}
+			else if( x == 3){
+				return 0x555555;
+			}
+			else if( x == 4){
+				return 0xFFFFFF;
+			}
+			else if( x == 5){
+				return 0x000000;
+			}
 		}
 		function onShow(){
 				needsRedraw=true;
@@ -141,9 +181,9 @@ class EssentialView extends WatchUi.WatchFace {
 			dc.drawText(scrRadius + 4, scrRadius - 45, MFont, timeStr1, 0);
 			dc.drawText(scrRadius + 8, scrRadius - 35, BFont, timeStr2, 2);
 			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-			dc.clearClip();
+	
 			
-			//drawStepComplication(dc);
+			drawStepComplication(dc);
 			drawComplication(dc);
 		    
 			
@@ -180,13 +220,13 @@ class EssentialView extends WatchUi.WatchFace {
 		}
 		
 		function drawStepComplication(dc){
+		
 			dc.setColor(colBLACK, colTRANSPARENT);
-			//dc.fillRectangle(90, arcYPoint + 65, 60, 18);
 			dc.drawText(scrRadius, arcYPoint + 65, 0, steps, 1 );
 			dc.drawText(scrRadius, 190, SFont, percentage + "%", 1);
 			dc.setColor(colGRAY, colTRANSPARENT);
 			dc.drawText(scrRadius, arcYPoint + 65, 0, ActivityMonitor.getInfo().steps, 1);
-			
+		
 			activityInfo = ActivityMonitor.getInfo();
 			steps = activityInfo.steps;
 			goal = activityInfo.stepGoal;
@@ -195,6 +235,7 @@ class EssentialView extends WatchUi.WatchFace {
 					dc.setColor(colGRAY, colTRANSPARENT);
 					dc.drawText(202, 155, SFont, goal, 1);
 					goalDrawn = true;
+					
 			}
 			
 			
@@ -226,7 +267,7 @@ class EssentialView extends WatchUi.WatchFace {
 			oldDayOfWeek = time.day_of_week;
 			dc.setColor(colACCENT, colTRANSPARENT);
 			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 2, SFont, dayOfWeekArr[time.day_of_week], 2);
-			dc.drawText(scrRadius + 24 + (scrHeight / 30), scrRadius + 2, SFont, time.day, 2);
+			dc.drawText(scrRadius + 26 + (scrHeight / 30), scrRadius + 2, SFont, time.day, 2);
 			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 14, SFont, monthOfYear[time.month], 2);
 			
 		}
@@ -236,7 +277,7 @@ class EssentialView extends WatchUi.WatchFace {
 			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 
 			 timeStr1 = Lang.format("$1$", [time.hour]);
-			 timeStr2 = Lang.format("$1$", [time.min(%02d)]);
+			 timeStr2 = Lang.format("$1$", [time.min.format("%02d")]);
 		
 		
 				
@@ -249,19 +290,31 @@ class EssentialView extends WatchUi.WatchFace {
 	
 		
 		function drawComplication(dc){
+			if(datafield == -1) {
+				return;
+			}  
 			
-			dc.setColor(colBLACK, colTRANSPARENT);
-			dc.fillRectangle(110, 51, 8, 10);
-			dc.setColor(colGRAY, colTRANSPARENT);
-			dc.drawBitmap(scrRadius - 15, 45, complicationIcon);
 			dc.setColor(colWHITE, colTRANSPARENT);
-			var tmp 
-			if(HR == false){
-				tmp = (activityInfo.floorsClimbed == null ?  0 :  activityInfo.floorsClimbed)
-			} else if(HR == true){
-				tmp = AcitivityMonitor.Heart
+			var sy = 53;
+			var tmp = "0";
+			if (datafield == 0){
+				dc.setColor(colGRAY, colTRANSPARENT);
+			    dc.drawBitmap(scrRadius - 10, 45, complicationIcon);
+				tmp = (ActivityMonitor.getInfo().floorsClimbed == null ?  0 :  ActivityMonitor.getInfo().floorsClimbed);
+				dc.setColor(colBLACK, colTRANSPARENT);
+				dc.fillRectangle(110, 51, 8, 10);
+			} else if(datafield == 1){
+				sy = 48;
+				dc.setColor(colGRAY, colTRANSPARENT);
+			    dc.drawBitmap(scrRadius - 10, 45, complicationIcon);
+				var hrIter = ActivityMonitor.getHeartRateHistory(null, true);
+			    var hr = hrIter.next();
+			    tmp  = (hr.heartRate != ActivityMonitor.INVALID_HR_SAMPLE && hr.heartRate > 0) ? hr.heartRate : 0;
+			    tmp = tmp.toString();
 			}
-			dc.drawText(scrRadius, 53, XSFont, , 1);	
+			//Sys.println(colBLACK);
+			dc.setColor(colBLACK, colTRANSPARENT);
+			dc.drawText(scrRadius, sy, XSFont, tmp , 1);	
 			tmp = null;	
 		}
 

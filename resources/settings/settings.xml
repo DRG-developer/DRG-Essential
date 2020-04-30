@@ -1,0 +1,60 @@
+<settings>
+	<setting propertyKey="@Properties.AppVersion" title="@Strings.AppVersionTitle">
+		<settingConfig type="alphaNumeric" readonly="true"/>
+	</setting>
+	
+	<setting propertyKey="@Properties.DataField" title="@Strings.DataField">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.EmptyField</listEntry>
+			<listEntry value="0">@Strings.StairsField</listEntry>
+			<listEntry value="1">@Strings.HRField</listEntry>
+		</settingConfig>
+	</setting>
+	
+	
+	<setting propertyKey="@Properties.colGray" title="@Strings.colGray">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.colVibrYel</listEntry>
+			<listEntry value="1">@Strings.colSubtYel</listEntry>
+			<listEntry value="2">@Strings.colLightGray</listEntry>
+			<listEntry value="3">@Strings.colDarkGray</listEntry>
+			<listEntry value="4">@Strings.colWhite</listEntry>
+			<listEntry value="5">@Strings.colBlack</listEntry>		
+		</settingConfig>
+	</setting>
+	
+	
+	
+	
+	
+	<setting propertyKey="@Properties.colTime" title="@Strings.colTime">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.colVibrYel</listEntry>
+			<listEntry value="1">@Strings.colSubtYel</listEntry>
+			<listEntry value="2">@Strings.colLightGray</listEntry>
+			<listEntry value="3">@Strings.colDarkGray</listEntry>
+			<listEntry value="4">@Strings.colWhite</listEntry>
+			<listEntry value="5">@Strings.colBlack</listEntry>		
+		</settingConfig>
+	</setting>
+	
+	
+	<setting propertyKey="@Properties.colAccent" title="@Strings.colAccent">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.colVibrYel</listEntry>
+			<listEntry value="1">@Strings.colSubtYel</listEntry>
+			<listEntry value="2">@Strings.colLightGray</listEntry>
+			<listEntry value="3">@Strings.colDarkGray</listEntry>
+			<listEntry value="4">@Strings.colWhite</listEntry>
+			<listEntry value="5">@Strings.colBlack</listEntry>		
+		</settingConfig>
+	</setting>
+	
+	
+	<setting propertyKey="@Properties.leadingHourZero" title="@Strings.leadingHourZero">
+		<settingConfig type="boolean"/>
+	</setting>
+	
+	
+
+</settings>

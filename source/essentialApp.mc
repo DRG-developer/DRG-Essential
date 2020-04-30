@@ -30,4 +30,7 @@ class essentialWatch extends Application.AppBase
             return [new EssentialView()];
     }
 
+	function onSettingsChanged(){
+			getSett();
+	}
 }

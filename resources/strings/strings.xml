@@ -1,3 +1,21 @@
 <strings>
+	<string id="AppVersionTitle">App Version</string>
     <string id="AppName">essential</string>
+    <string id="DataField">DataField</string>
+    <string id="HRField">heart rate field</string>
+    <string id="StairsField">floors climbed field</string>
+    <string id="EmptyField">display nothing</string>
+    <string id="colGray">the color of the data fields</string>
+    <string id="colBg">the background color</string>
+    <string id="colTime">the color of the time</string>
+    <string id="colAccent">the accent color (the color of the battery ring, and steps indicator)</string>
+    <string id="leadingHourZero">display a leading zero if the hour is lower than 10</string>
+    
+    
+    <string id="colVibrYel">vibrant yellow </string>
+    <string id="colSubtYel">more subtile yellow </string>
+    <string id="colLightGray">light gray</string>
+    <string id="colDarkGray">dark gray </string>
+    <string id="colWhite">white </string>
+    <string id="colBlack">black</string>
 </strings>
