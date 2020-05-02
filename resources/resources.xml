@@ -1,7 +1,7 @@
 <resources>
     <fonts>
-		<font id="XTinyFont" filename="fonts/XTinyFont.fnt" filter="0123456789%abcdefghijklmnopqrstuvwABCDEFGHIJKLMNOPQRSTUVW()-_@#=:!" />
-        <font id="smallFont" filename="fonts/15px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwABCDEFGHIJKLMNOPQRSTUVW()-_@#=:!" />
+		<font id="XTinyFont" filename="fonts/XTinyFont.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="smallFont" filename="fonts/15px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
         <font id="mediumFont" filename="fonts/45px-ariel.fnt" filter="0123456789" />
         <font id="massiveFont" filename="fonts/90px-ariel-bold.fnt" filter="0123456789" />
         <font id="icons" filename="fonts/icons.fnt" filter=""/>
