@@ -15,10 +15,17 @@
     <string id="leadingHourZero">display a leading zero if the hour is lower than 10</string>
     
     
-    <string id="colVibrYel">vibrant yellow </string>
-    <string id="colSubtYel">more subtile yellow </string>
-    <string id="colLightGray">light gray</string>
-    <string id="colDarkGray">dark gray </string>
-    <string id="colWhite">white </string>
-    <string id="colBlack">black</string>
+    <string id="colVibrYel"> vibrant yellow </string>
+    <string id="colSubtYel"> more subtile yellow </string>
+    <string id="colLightGray"> light gray </string>
+    <string id="colDarkGray"> dark gray </string>
+    <string id="colWhite"> white </string>
+    <string id="colBlack"> black </string>
+    <string id="colSubtRed"> subtile red </string>
+    <string id="colVibrRed"> vibrant red </string>
+    <string id="colSubtGreen"> subtile green </string>
+    <string id="colVibrGreen"> vibrant green </string>
+    <string id="colSubtBlue">  blue  </string>
+    <string id="colVibrBlue">  lighter blue  </string>
+    
 </strings>

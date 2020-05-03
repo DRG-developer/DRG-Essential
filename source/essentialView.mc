@@ -151,9 +151,9 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			
 			if(x == 0){
-				return 0xFFFF00;
-			} else if( x == 1){
 				return 0xFFFF55;
+			} else if( x == 1){
+				return 0xFFFF00;
 			}
 			else if( x == 2){
 				return 0xAAAAAA;
@@ -166,6 +166,24 @@ class EssentialView extends WatchUi.WatchFace {
 			}
 			else if( x == 5){
 				return 0x000000;
+			}
+			else if( x == 6){
+				return 0xAA0000;
+			}
+			else if( x == 7){
+				return 0xFF0000;
+			}
+			else if( x == 8){
+				return 0x00AA00;
+			}
+			else if( x == 9){
+				return 0x00FF00;
+			}
+			else if( x == 10){
+				return 0x0000FF;
+			}
+			else if( x == 11){
+				return 0x00AAFF;
 			}
 		}
 		function onShow(){
