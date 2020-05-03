@@ -54,6 +54,7 @@ class EssentialView extends WatchUi.WatchFace {
 		var needsRedraw;
 		var datafield = 1; //-1 = none, 0 = stairs, 1= HR
 		var fullRedraw = false;
+		var alwaysRedrawBG = 0;
 		
 		var app = Application.getApp();
 		var time;
@@ -116,13 +117,14 @@ class EssentialView extends WatchUi.WatchFace {
 		}
 		function getSett(){
 			if(production == false){ return;}
-			colGRAY   = switchCol(app.getProperty("colGray"));
-			colACCENT = switchCol(app.getProperty("colAccent"));
-			colTIME   = switchCol(app.getProperty("colTime"));
-			colBLACK  = switchCol(app.getProperty("colBg"));
-			colWHITE  = 0xFFFFFF;
-			colBLACK  = 0x000000;
-			datafield = app.getProperty("DataField");
+			colGRAY       = switchCol(app.getProperty("colGray"));
+			colACCENT     = switchCol(app.getProperty("colAccent"));
+			colTIME       = switchCol(app.getProperty("colTime"));
+			colBLACK      = switchCol(app.getProperty("colBg"));
+			colWHITE      = 0xFFFFFF;
+			colBLACK      = 0x000000;
+			alwaysRedrawBG  = app.getProperty("redrawFullScr");
+			datafield     = app.getProperty("DataField");
 	
 		}
 		function switchCol(x){
@@ -167,10 +169,12 @@ class EssentialView extends WatchUi.WatchFace {
 		
 		function onUpdate(dc){
 			dc.clearClip();
+			dc.setColor(colBLACK, colBLACK);
+			if(alwaysRedrawBG == 1){dc.fillCircle(scrRadius, scrRadius, scrRadius);}
 			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 			battPercent = Sys.getSystemStats().battery;
 	
-			if(hiddenV == true || fullRedraw == true || time.day_of_week != oldDayOfWeek){
+			if(hiddenV == true || fullRedraw == true || time.day_of_week != oldDayOfWeek || alwaysRedrawBG == 1){
 				BS_solv ++;
 				drwBatt = true;
 				if(BS_solv >= 2){
@@ -188,9 +192,9 @@ class EssentialView extends WatchUi.WatchFace {
 				}
 				
 			}
-				
+				dc.setColor(colBLACK, colTRANSPARENT);
 			
-			dc.setColor(colBLACK, colTRANSPARENT);
+			
 	
 			dc.drawText(scrRadius + 4, scrRadius - 45, MFont, timeStr1, 0);
 			dc.drawText(scrRadius + 8, scrRadius - 35, BFont, timeStr2, 2);
@@ -204,7 +208,7 @@ class EssentialView extends WatchUi.WatchFace {
 			
 
 	
-			if((battPercent - oldBattPercent) > 0.4 || goalDrawn == false || fullRedraw == true || drwBatt == true){
+			if((battPercent - oldBattPercent) > 0.4 || goalDrawn == false || fullRedraw == true || drwBatt == true || alwaysRedrawBG == 1){
 				drawDateString(dc);
 				drawBattComplication(dc);
 				drwBatt = false;

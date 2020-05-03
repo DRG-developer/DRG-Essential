@@ -1,5 +1,8 @@
 <strings>
 	<string id="AppVersionTitle">App Version</string>
+	<string id="explainer">to save battery, by default i chose to only redraw the background once every day, or when you gesture. sometimes this will cause the screen to not fully update, and the backgroundof the previous screenw will be on screen (only sometimes), this can be resolved by either gesturing, pressing up and down (scrolling trhough the widgets and back), or changint the setting to draw the background every minute. almost every watchface does the latter, but that does impact battery life, so i made it an option</string>
+    <string id="dodraw">draw every minute</string>
+    <string id="dontdraw">don't draw every minute</string>
     <string id="AppName">essential</string>
     <string id="DataField">DataField</string>
     <string id="HRField">heart rate field</string>

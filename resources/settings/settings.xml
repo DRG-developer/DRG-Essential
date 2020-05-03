@@ -12,6 +12,13 @@
 	</setting>
 	
 	
+	<setting propertyKey="@Properties.redrawFullScr" title="@Strings.explainer">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.dontdraw</listEntry>
+			<listEntry value="1">@Strings.dodraw</listEntry>
+		</settingConfig>
+	</setting>
+	
 	<setting propertyKey="@Properties.colGray" title="@Strings.colGray">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.colVibrYel</listEntry>
