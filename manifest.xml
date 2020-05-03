@@ -62,20 +62,20 @@
             
             
             <!-- MARQ series -->
-            <iq:product id="marqadventurer"/>
-            <iq:product id="marqcommander"/>
-            <iq:product id="marqathlete"/>
-            <iq:product id="marqaviator"/>
-            <iq:product id="marqcaptain"/>
-            <iq:product id="marqdriver"/>
-            <iq:product id="marqexpedition"/>
+            <iq:product id="marqadventurer"/> <!-- tested in sim -->
+            <iq:product id="marqcommander"/> <!-- tested in sim -->
+            <iq:product id="marqathlete"/> <!-- tested in sim -->
+            <iq:product id="marqaviator"/> <!-- tested in sim -->
+            <iq:product id="marqcaptain"/> <!-- tested in sim -->
+            <iq:product id="marqdriver"/> <!-- tested in sim -->
+            <iq:product id="marqexpedition"/> <!-- tested in sim -->
             
             <!-- non sport watches (read: golf watches XD )-->
 			<!-- doesnt have heart rate <iq:product id="approachs60"/> -->
 			
 			<!--  misc-->
 			<iq:product id="fenixchronos"/> <!-- tested in sim -->
-			<iq:product id="venu"/>
+			<!-- <iq:product id="venu"/>  tested in sim, almost done -->
 			
 			
 		

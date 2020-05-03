@@ -2,9 +2,9 @@
 	<property id="AppVersion" type="string">0.0.1</property>
 	<property id="redrawFullScr" type="number">1</property>
 	<property id="DataField" type="number">1</property>
-	<property id="colAccent" type="number">0</property>
+	<property id="colAccent" type="number">1</property>
 	<property id="colGray" type="number">2</property>
-	<property id="colTime" type="number">0</property>
+	<property id="colTime" type="number">1</property>
 	<property id="colBg" type="number">5</property>
 	<property id="leadingHourZero" type="boolean">false</property>
 </properties>

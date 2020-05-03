@@ -42,8 +42,8 @@
 	
 	<setting propertyKey="@Properties.colTime" title="@Strings.colTime">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.colVibrYel</listEntry>
-			<listEntry value="1">@Strings.colSubtYel</listEntry>
+			<listEntry value="0">@Strings.colSubtYel</listEntry>
+			<listEntry value="1">@Strings.colVibrYel</listEntry>
 			<listEntry value="2">@Strings.colLightGray</listEntry>
 			<listEntry value="3">@Strings.colDarkGray</listEntry>
 			<listEntry value="4">@Strings.colWhite</listEntry>
@@ -60,8 +60,8 @@
 	
 	<setting propertyKey="@Properties.colAccent" title="@Strings.colAccent">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.colVibrYel</listEntry>
-			<listEntry value="1">@Strings.colSubtYel</listEntry>
+			<listEntry value="0">@Strings.colSubtYel</listEntry>
+			<listEntry value="1">@Strings.colVibrYel</listEntry>
 			<listEntry value="2">@Strings.colLightGray</listEntry>
 			<listEntry value="3">@Strings.colDarkGray</listEntry>
 			<listEntry value="4">@Strings.colWhite</listEntry>
