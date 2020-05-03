@@ -40,6 +40,13 @@ class EssentialView extends WatchUi.WatchFace {
 		var SFont;
 		var BFont;
 		var MFont;
+		
+		var stepY;
+		var stepPerY; //stepPercentY
+		var stepGoalX = 0;
+		var venuY = 0;
+		var venuY2 = 0;
+		
 		var restoreFromResume = 5;
 		var BS_solv = 0;
 		
@@ -96,10 +103,23 @@ class EssentialView extends WatchUi.WatchFace {
 			BFont = WatchUi.loadResource(Rez.Fonts.mediumFont);
 			MFont = WatchUi.loadResource(Rez.Fonts.massiveFont);
 		
-			
+		
 			scrHeight = dc.getHeight();
 			scrRadius = scrHeight / 2;
 			
+			if (scrHeight >= 390){
+				MFont  = 17;
+				BFont  = 15;
+				venuY  = -40;
+				venuY2 = -15;
+				//SFont  = 0;
+				battCircleThickness = 10;
+				stepBarThickness = 8;
+			}
+			
+			stepY       = scrRadius * 0.54;
+			stepPerY    = scrRadius * 0.58;
+			stepGoalX   = scrRadius * 0.66;	
 		
 			
 			arcYPoint = scrRadius - 20;
@@ -111,7 +131,7 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			dc.setColor(colGRAY, colTRANSPARENT);
 			for(i = 0; i < stepBarThickness; i++){
-				dc.drawArc(scrRadius, scrRadius, arcYPoint - i, 0, 210 + i / 4, 330 - i / 3.8);
+				dc.drawArc(scrRadius, scrRadius + venuY2, arcYPoint - i, 0, 210 + i / 4, 330 - i / 3.8);
 			}
 	
 		}
@@ -188,7 +208,7 @@ class EssentialView extends WatchUi.WatchFace {
 				goalDrawn = false;
 				dc.setColor(colGRAY, colTRANSPARENT);
 				for(i = 0; i < stepBarThickness; i++){
-					dc.drawArc(scrRadius, scrRadius, arcYPoint - i, 0, 210 + i / 4, 330 - i / 3.8);
+					dc.drawArc(scrRadius, scrRadius + venuY2, arcYPoint - i, 0, 210 + i / 4, 330 - i / 3.8);
 				}
 				
 			}
@@ -196,8 +216,8 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			
 	
-			dc.drawText(scrRadius + 4, scrRadius - 45, MFont, timeStr1, 0);
-			dc.drawText(scrRadius + 8, scrRadius - 35, BFont, timeStr2, 2);
+			dc.drawText(scrRadius + 4, scrRadius - 45 + venuY, MFont, timeStr1, 0);
+			dc.drawText(scrRadius + 8, scrRadius - 35 + venuY, BFont, timeStr2, 2);
 			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 	
 			
@@ -251,10 +271,10 @@ class EssentialView extends WatchUi.WatchFace {
 		function drawStepComplication(dc){
 		
 			dc.setColor(colBLACK, colTRANSPARENT);
-			dc.drawText(scrRadius, arcYPoint + 65, 0, steps, 1 );
-			dc.drawText(scrRadius, 190, SFont, percentage + "%", 1);
+			dc.drawText(scrRadius, arcYPoint + stepY, 0, steps, 1 );
+			dc.drawText(scrRadius, scrRadius + stepPerY, SFont, percentage + "%", 1);
 			dc.setColor(colGRAY, colTRANSPARENT);
-			dc.drawText(scrRadius, arcYPoint + 65, 0, ActivityMonitor.getInfo().steps, 1);
+			dc.drawText(scrRadius, arcYPoint + stepY, 0, ActivityMonitor.getInfo().steps, 1);
 		
 			activityInfo = ActivityMonitor.getInfo();
 			steps = activityInfo.steps;
@@ -262,7 +282,7 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			if (goalDrawn == false){
 					dc.setColor(colGRAY, colTRANSPARENT);
-					dc.drawText(202, 155, SFont, goal, 1);
+					dc.drawText(scrRadius + stepGoalX, arcYPoint + stepY - 10 + venuY2, SFont, goal, 1);
 					goalDrawn = true;
 					
 			}
@@ -277,12 +297,12 @@ class EssentialView extends WatchUi.WatchFace {
 			}
 			var math = 211 + (((drwSteps.toFloat()) / (goal.toFloat())) * 120);
 			for(i = 0; i < stepBarThickness; i++){
-				dc.drawArc(scrRadius, scrRadius, arcYPoint - i, 0, 210 + i / 4, 
+				dc.drawArc(scrRadius, scrRadius + venuY2, arcYPoint - i, 0, 210 + i / 4, 
 				(math > 300 ? (math - i / 3.8) : (math + 1) ) );
 			}
 			percentage = (((drwSteps.toFloat()) / (goal.toFloat())) * 100).toNumber().toString() ;
 			dc.setColor(colGRAY, colTRANSPARENT);
-			dc.drawText(scrRadius, 190, SFont, percentage + "%", 1);
+			dc.drawText(scrRadius, scrRadius + stepPerY, SFont, percentage + "%", 1);
 			
 			//steps = null;
 			goal = null;
@@ -309,8 +329,8 @@ class EssentialView extends WatchUi.WatchFace {
 		
 				
 			dc.setColor(colTIME, colTRANSPARENT);
-			dc.drawText(scrRadius + 4, scrRadius - 45, MFont, timeStr1, 0);
-			dc.drawText(scrRadius + 8, scrRadius - 35, BFont, timeStr2, 2);
+			dc.drawText(scrRadius + 4, scrRadius - 45 + venuY, MFont, timeStr1, 0);
+			dc.drawText(scrRadius + 8, scrRadius - 35 + venuY, BFont, timeStr2, 2);
 	
 		}
 		

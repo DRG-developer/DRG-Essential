@@ -58,10 +58,7 @@
 	</setting>
 	
 	
-	<setting propertyKey="@Properties.leadingHourZero" title="@Strings.leadingHourZero">
-		<settingConfig type="boolean"/>
-	</setting>
-	
+
 	
 
 </settings>

@@ -4,7 +4,7 @@
     <string id="dodraw">draw every minute</string>
     <string id="dontdraw">don't draw every minute</string>
     <string id="AppName">essential</string>
-    <string id="DataField">DataField</string>
+    <string id="DataField">the data field to draw, if your device doesnt support this, don't choose it (the fr245 doesn't support stairs for example). the watchface will crash if you choose one that isnt supported, if that happens, no worries! just change the datafield to one that your device does support and done</string>
     <string id="HRField">heart rate field</string>
     <string id="StairsField">floors climbed field</string>
     <string id="EmptyField">display nothing</string>

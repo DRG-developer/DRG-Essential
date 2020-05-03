@@ -9,191 +9,202 @@
         <entry filename="/home/dev/dev-env/self/essential/source/essentialApp.mc" id="6" lineNum="30" pc="268435493" symbol="getInitialView"/>
         <entry filename="/home/dev/dev-env/self/essential/source/essentialApp.mc" id="7" lineNum="33" pc="268435531" symbol="onSettingsChanged"/>
         <entry filename="/home/dev/dev-env/self/essential/source/essentialApp.mc" id="7" lineNum="34" pc="268435535" symbol="onSettingsChanged"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="9" lineNum="73" pc="268435548" symbol="initialize"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="9" lineNum="74" pc="268435552" symbol="initialize"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="9" lineNum="75" pc="268435570" symbol="initialize"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="80" pc="268435583" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="83" pc="268435587" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="84" pc="268435604" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="86" pc="268435650" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="87" pc="268435667" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="90" pc="268435713" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="94" pc="268435756" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="95" pc="268435799" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="96" pc="268435842" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="97" pc="268435885" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="100" pc="268435928" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="101" pc="268435947" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="105" pc="268435969" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="107" pc="268435991" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="108" pc="268436019" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="112" pc="268436055" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="113" pc="268436083" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="114" pc="268436116" symbol="onLayout"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="118" pc="268436229" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="119" pc="268436233" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="119" pc="268436247" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="120" pc="268436251" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="121" pc="268436292" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="122" pc="268436333" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="123" pc="268436374" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="124" pc="268436415" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="125" pc="268436428" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="126" pc="268436441" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="127" pc="268436471" symbol="getSett"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="130" pc="268436502" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="133" pc="268436506" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="134" pc="268436517" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="135" pc="268436526" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="136" pc="268436537" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="138" pc="268436546" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="139" pc="268436557" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="141" pc="268436566" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="142" pc="268436577" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="144" pc="268436586" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="145" pc="268436597" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="147" pc="268436606" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="148" pc="268436617" symbol="switchCol"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="13" lineNum="151" pc="268436627" symbol="onShow"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="13" lineNum="152" pc="268436631" symbol="onShow"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="13" lineNum="153" pc="268436644" symbol="onShow"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="14" lineNum="157" pc="268436661" symbol="onHide"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="14" lineNum="158" pc="268436665" symbol="onHide"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="15" lineNum="162" pc="268436676" symbol="onEnterSleep"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="15" lineNum="163" pc="268436680" symbol="onEnterSleep"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="16" lineNum="165" pc="268436691" symbol="onExitSleep"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="16" lineNum="166" pc="268436695" symbol="onExitSleep"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="170" pc="268436706" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="171" pc="268436710" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="172" pc="268436722" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="173" pc="268436750" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="173" pc="268436767" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="174" pc="268436806" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="175" pc="268436856" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="177" pc="268436885" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="178" pc="268436965" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="179" pc="268436984" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="180" pc="268436994" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="181" pc="268437011" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="182" pc="268437021" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="185" pc="268437037" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="186" pc="268437065" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="187" pc="268437101" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="188" pc="268437115" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="189" pc="268437125" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="190" pc="268437153" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="191" pc="268437186" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="195" pc="268437301" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="199" pc="268437329" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="200" pc="268437390" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="201" pc="268437451" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="204" pc="268437501" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="205" pc="268437515" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="211" pc="268437529" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="212" pc="268437626" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="213" pc="268437640" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="214" pc="268437654" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="216" pc="268437667" symbol="onUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="220" pc="268437682" symbol="onPartialUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="221" pc="268437686" symbol="onPartialUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="222" pc="268437703" symbol="onPartialUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="223" pc="268437722" symbol="onPartialUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="224" pc="268437754" symbol="onPartialUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="225" pc="268437782" symbol="onPartialUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="226" pc="268438120" symbol="onPartialUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="227" pc="268438134" symbol="onPartialUpdate"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="232" pc="268438150" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="233" pc="268438154" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="234" pc="268438182" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="235" pc="268438255" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="236" pc="268438283" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="238" pc="268438356" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="239" pc="268438384" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="240" pc="268438417" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="242" pc="268438520" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="243" pc="268438548" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="244" pc="268438581" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="248" pc="268438684" symbol="drawBattComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="251" pc="268438701" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="253" pc="268438705" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="254" pc="268438733" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="255" pc="268438785" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="256" pc="268438837" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="257" pc="268438865" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="259" pc="268438930" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="260" pc="268438953" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="261" pc="268438975" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="263" pc="268438997" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="264" pc="268439011" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="265" pc="268439039" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="266" pc="268439082" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="271" pc="268439095" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="273" pc="268439123" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="274" pc="268439143" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="276" pc="268439162" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="278" pc="268439178" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="279" pc="268439227" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="280" pc="268439260" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="283" pc="268439391" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="284" pc="268439458" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="285" pc="268439486" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="288" pc="268439538" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="289" pc="268439547" symbol="drawStepComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="293" pc="268439557" symbol="drawDateString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="294" pc="268439561" symbol="drawDateString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="295" pc="268439611" symbol="drawDateString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="296" pc="268439633" symbol="drawDateString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="297" pc="268439661" symbol="drawDateString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="298" pc="268439767" symbol="drawDateString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="302" pc="268439853" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="303" pc="268439857" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="304" pc="268439885" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="306" pc="268439935" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="307" pc="268439991" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="311" pc="268440061" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="312" pc="268440089" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="313" pc="268440150" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="319" pc="268440212" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="322" pc="268440216" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="323" pc="268440233" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="326" pc="268440237" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="327" pc="268440265" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="328" pc="268440272" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="329" pc="268440279" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="330" pc="268440296" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="331" pc="268440324" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="332" pc="268440363" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="333" pc="268440420" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="334" pc="268440448" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="335" pc="268440483" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="336" pc="268440500" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="337" pc="268440507" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="338" pc="268440535" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="339" pc="268440574" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="340" pc="268440607" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="341" pc="268440669" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="344" pc="268440685" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="345" pc="268440713" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="346" pc="268440750" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="9" lineNum="80" pc="268435548" symbol="initialize"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="9" lineNum="81" pc="268435552" symbol="initialize"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="9" lineNum="82" pc="268435570" symbol="initialize"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="87" pc="268435583" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="90" pc="268435587" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="91" pc="268435604" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="93" pc="268435650" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="94" pc="268435667" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="97" pc="268435713" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="101" pc="268435756" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="102" pc="268435799" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="103" pc="268435842" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="104" pc="268435885" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="107" pc="268435928" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="108" pc="268435947" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="110" pc="268435969" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="111" pc="268435986" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="112" pc="268435999" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="113" pc="268436012" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="114" pc="268436025" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="116" pc="268436038" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="117" pc="268436051" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="120" pc="268436067" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="121" pc="268436089" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="122" pc="268436111" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="125" pc="268436133" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="127" pc="268436155" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="128" pc="268436183" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="132" pc="268436219" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="133" pc="268436247" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="10" lineNum="134" pc="268436280" symbol="onLayout"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="138" pc="268436402" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="139" pc="268436406" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="139" pc="268436420" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="140" pc="268436424" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="141" pc="268436465" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="142" pc="268436506" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="143" pc="268436547" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="144" pc="268436588" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="145" pc="268436601" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="146" pc="268436614" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="11" lineNum="147" pc="268436644" symbol="getSett"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="150" pc="268436675" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="153" pc="268436679" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="154" pc="268436690" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="155" pc="268436699" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="156" pc="268436710" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="158" pc="268436719" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="159" pc="268436730" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="161" pc="268436739" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="162" pc="268436750" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="164" pc="268436759" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="165" pc="268436770" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="167" pc="268436779" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="12" lineNum="168" pc="268436790" symbol="switchCol"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="13" lineNum="171" pc="268436800" symbol="onShow"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="13" lineNum="172" pc="268436804" symbol="onShow"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="13" lineNum="173" pc="268436817" symbol="onShow"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="14" lineNum="177" pc="268436834" symbol="onHide"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="14" lineNum="178" pc="268436838" symbol="onHide"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="15" lineNum="182" pc="268436849" symbol="onEnterSleep"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="15" lineNum="183" pc="268436853" symbol="onEnterSleep"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="16" lineNum="185" pc="268436864" symbol="onExitSleep"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="16" lineNum="186" pc="268436868" symbol="onExitSleep"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="190" pc="268436879" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="191" pc="268436883" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="192" pc="268436895" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="193" pc="268436923" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="193" pc="268436940" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="194" pc="268436979" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="195" pc="268437029" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="197" pc="268437058" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="198" pc="268437138" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="199" pc="268437157" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="200" pc="268437167" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="201" pc="268437184" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="202" pc="268437194" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="205" pc="268437210" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="206" pc="268437238" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="207" pc="268437274" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="208" pc="268437288" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="209" pc="268437298" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="210" pc="268437326" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="211" pc="268437359" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="215" pc="268437483" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="219" pc="268437511" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="220" pc="268437581" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="221" pc="268437651" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="224" pc="268437701" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="225" pc="268437715" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="231" pc="268437729" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="232" pc="268437826" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="233" pc="268437840" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="234" pc="268437854" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="17" lineNum="236" pc="268437867" symbol="onUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="240" pc="268437882" symbol="onPartialUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="241" pc="268437886" symbol="onPartialUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="242" pc="268437903" symbol="onPartialUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="243" pc="268437922" symbol="onPartialUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="244" pc="268437954" symbol="onPartialUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="245" pc="268437982" symbol="onPartialUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="246" pc="268438320" symbol="onPartialUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="18" lineNum="247" pc="268438334" symbol="onPartialUpdate"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="252" pc="268438350" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="253" pc="268438354" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="254" pc="268438382" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="255" pc="268438455" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="256" pc="268438483" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="258" pc="268438556" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="259" pc="268438584" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="260" pc="268438617" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="262" pc="268438720" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="263" pc="268438748" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="264" pc="268438781" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="19" lineNum="268" pc="268438884" symbol="drawBattComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="271" pc="268438901" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="273" pc="268438905" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="274" pc="268438933" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="275" pc="268438988" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="276" pc="268439052" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="277" pc="268439080" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="279" pc="268439148" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="280" pc="268439171" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="281" pc="268439193" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="283" pc="268439215" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="284" pc="268439229" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="285" pc="268439257" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="286" pc="268439339" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="291" pc="268439352" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="293" pc="268439380" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="294" pc="268439400" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="296" pc="268439419" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="298" pc="268439435" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="299" pc="268439484" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="300" pc="268439517" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="303" pc="268439657" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="304" pc="268439724" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="305" pc="268439752" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="308" pc="268439816" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="20" lineNum="309" pc="268439825" symbol="drawStepComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="313" pc="268439835" symbol="drawDateString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="314" pc="268439839" symbol="drawDateString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="315" pc="268439889" symbol="drawDateString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="316" pc="268439911" symbol="drawDateString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="317" pc="268439939" symbol="drawDateString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="21" lineNum="318" pc="268440045" symbol="drawDateString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="322" pc="268440131" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="323" pc="268440135" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="324" pc="268440163" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="326" pc="268440213" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="327" pc="268440269" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="331" pc="268440339" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="332" pc="268440367" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="22" lineNum="333" pc="268440437" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="339" pc="268440508" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="342" pc="268440512" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="343" pc="268440529" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="346" pc="268440533" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="347" pc="268440561" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="348" pc="268440568" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="349" pc="268440575" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="350" pc="268440592" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="351" pc="268440620" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="352" pc="268440659" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="353" pc="268440716" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="354" pc="268440744" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="355" pc="268440779" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="356" pc="268440796" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="357" pc="268440803" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="358" pc="268440831" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="359" pc="268440870" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="360" pc="268440903" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="361" pc="268440965" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="364" pc="268440981" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="365" pc="268441009" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="23" lineNum="366" pc="268441046" symbol="drawComplication"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="59" symbol="restoreFromResume"/>
+        <entry field="true" id="64" symbol="restoreFromResume"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="83" method="true" symbol="switchCol"/>
+        <entry id="88" method="true" symbol="switchCol"/>
         <entry field="true" id="18" symbol="smallFont"/>
         <entry field="true" id="15" symbol="inherit"/>
         <entry field="true" id="13" symbol="StairsIcon"/>
-        <entry id="82" method="true" symbol="getSett"/>
+        <entry id="87" method="true" symbol="getSett"/>
         <entry field="true" id="25" symbol="colBg"/>
-        <entry field="true" id="73" symbol="percentage"/>
-        <entry field="true" id="68" symbol="datafield"/>
+        <entry field="true" id="78" symbol="percentage"/>
+        <entry field="true" id="73" symbol="datafield"/>
         <entry field="true" id="38" symbol="colLightGray"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
         <entry field="true" id="53" symbol="stepBarThickness"/>
         <entry field="true" id="41" symbol="scrHeight"/>
         <entry field="true" id="55" symbol="XSFont"/>
+        <entry field="true" id="60" symbol="stepPerY"/>
         <entry field="true" id="26" symbol="dontdraw"/>
-        <entry field="true" id="78" symbol="dateString"/>
+        <entry field="true" id="83" symbol="dateString"/>
         <entry field="true" id="36" symbol="StairsField"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="27" symbol="colGray"/>
@@ -201,23 +212,24 @@
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="34" symbol="leadingHourZero"/>
         <entry field="true" id="14" symbol="HeartRate"/>
-        <entry field="true" id="71" symbol="app"/>
-        <entry field="true" id="80" symbol="goalDrawn"/>
+        <entry field="true" id="76" symbol="app"/>
+        <entry field="true" id="85" symbol="goalDrawn"/>
         <entry field="true" id="49" symbol="colTRANSPARENT"/>
         <entry field="true" id="29" symbol="colWhite"/>
-        <entry id="86" method="true" symbol="drawDateString"/>
+        <entry id="91" method="true" symbol="drawDateString"/>
         <entry field="true" id="33" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry field="true" id="37" symbol="colBlack"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry field="true" id="8388912" symbol="steps"/>
+        <entry field="true" id="59" symbol="stepY"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8390097" method="true" symbol="onPartialUpdate"/>
-        <entry field="true" id="74" symbol="complicationIcon"/>
-        <entry field="true" id="81" symbol="activityInfo"/>
+        <entry field="true" id="79" symbol="complicationIcon"/>
+        <entry field="true" id="86" symbol="activityInfo"/>
         <entry field="true" id="57" symbol="BFont"/>
         <entry field="true" id="8389024" object="true" symbol="DataField"/>
-        <entry field="true" id="76" symbol="battPercent"/>
+        <entry field="true" id="81" symbol="battPercent"/>
         <entry field="true" id="20" symbol="massiveFont"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="47" symbol="colGRAY"/>
@@ -226,52 +238,55 @@
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="12" module="true" symbol="Menus"/>
         <entry field="true" id="50" symbol="dayOfWeekArr"/>
-        <entry field="true" id="70" symbol="alwaysRedrawBG"/>
+        <entry field="true" id="75" symbol="alwaysRedrawBG"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
-        <entry field="true" id="69" symbol="fullRedraw"/>
-        <entry field="true" id="72" symbol="time"/>
-        <entry field="true" id="67" symbol="needsRedraw"/>
-        <entry field="true" id="60" symbol="BS_solv"/>
-        <entry field="true" id="75" symbol="hiddenV"/>
-        <entry id="88" method="true" symbol="drawComplication"/>
+        <entry field="true" id="74" symbol="fullRedraw"/>
+        <entry field="true" id="77" symbol="time"/>
+        <entry field="true" id="72" symbol="needsRedraw"/>
+        <entry field="true" id="65" symbol="BS_solv"/>
+        <entry field="true" id="80" symbol="hiddenV"/>
+        <entry id="93" method="true" symbol="drawComplication"/>
         <entry field="true" id="54" symbol="arcYPoint"/>
         <entry field="true" id="24" symbol="colTime"/>
-        <entry field="true" id="64" symbol="production"/>
+        <entry field="true" id="69" symbol="production"/>
         <entry field="true" id="28" symbol="EmptyField"/>
         <entry field="true" id="21" symbol="icons"/>
         <entry field="true" id="35" symbol="colSubtYel"/>
+        <entry field="true" id="62" symbol="venuY"/>
         <entry field="true" id="56" symbol="SFont"/>
         <entry field="true" id="48" symbol="colWHITE"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
-        <entry field="true" id="66" symbol="goal"/>
+        <entry field="true" id="71" symbol="goal"/>
         <entry field="true" id="44" symbol="colBLACK"/>
         <entry field="true" id="58" symbol="MFont"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry field="true" id="31" symbol="colAccent"/>
-        <entry id="87" method="true" symbol="drawTimeString"/>
+        <entry id="92" method="true" symbol="drawTimeString"/>
         <entry field="true" id="46" symbol="colTIME"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="16" symbol="LauncherIcon"/>
         <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="63" symbol="venuY2"/>
         <entry field="true" id="52" symbol="battCircleThickness"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="79" symbol="oldDayOfWeek"/>
+        <entry field="true" id="61" symbol="stepGoalX"/>
+        <entry field="true" id="84" symbol="oldDayOfWeek"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="63" symbol="timeStr2"/>
-        <entry field="true" id="62" symbol="timeStr1"/>
+        <entry field="true" id="68" symbol="timeStr2"/>
+        <entry field="true" id="67" symbol="timeStr1"/>
         <entry field="true" id="19" symbol="mediumFont"/>
-        <entry id="84" method="true" symbol="drawBattComplication"/>
+        <entry id="89" method="true" symbol="drawBattComplication"/>
         <entry field="true" id="45" symbol="colACCENT"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry field="true" id="42" symbol="scrRadius"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry field="true" id="40" symbol="explainer"/>
-        <entry id="85" method="true" symbol="drawStepComplication"/>
-        <entry field="true" id="61" symbol="drwSteps"/>
+        <entry id="90" method="true" symbol="drawStepComplication"/>
+        <entry field="true" id="66" symbol="drwSteps"/>
         <entry field="true" id="23" symbol="AppVersionTitle"/>
         <entry id="11" module="true" symbol="Layouts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
@@ -279,28 +294,28 @@
         <entry field="true" id="17" symbol="XTinyFont"/>
         <entry field="true" id="32" symbol="colVibrYel"/>
         <entry field="true" id="30" symbol="HRField"/>
-        <entry field="true" id="65" symbol="drwBatt"/>
+        <entry field="true" id="70" symbol="drwBatt"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="43" symbol="i"/>
         <entry field="true" id="51" symbol="monthOfYear"/>
-        <entry field="true" id="77" symbol="oldBattPercent"/>
+        <entry field="true" id="82" symbol="oldBattPercent"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
         <entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
-        <entry endPc="268436229" name="dc" stackId="1" startPc="268435583"/>
-        <entry endPc="268436627" name="x" stackId="1" startPc="268436502"/>
-        <entry endPc="268437682" name="dc" stackId="1" startPc="268436706"/>
-        <entry endPc="268438150" name="dc" stackId="1" startPc="268437682"/>
-        <entry endPc="268438701" name="dc" stackId="1" startPc="268438150"/>
-        <entry endPc="268439556" name="math" stackId="2" startPc="268438705"/>
-        <entry endPc="268439557" name="dc" stackId="1" startPc="268438701"/>
-        <entry endPc="268439853" name="dc" stackId="1" startPc="268439557"/>
-        <entry endPc="268440212" name="dc" stackId="1" startPc="268439853"/>
-        <entry endPc="268440682" name="hr" stackId="4" startPc="268440500"/>
-        <entry endPc="268440753" name="tmp" stackId="3" startPc="268440216"/>
-        <entry endPc="268440753" name="sy" stackId="2" startPc="268440216"/>
-        <entry endPc="268440754" name="dc" stackId="1" startPc="268440212"/>
+        <entry endPc="268436402" name="dc" stackId="1" startPc="268435583"/>
+        <entry endPc="268436800" name="x" stackId="1" startPc="268436675"/>
+        <entry endPc="268437882" name="dc" stackId="1" startPc="268436879"/>
+        <entry endPc="268438350" name="dc" stackId="1" startPc="268437882"/>
+        <entry endPc="268438901" name="dc" stackId="1" startPc="268438350"/>
+        <entry endPc="268439834" name="math" stackId="2" startPc="268438905"/>
+        <entry endPc="268439835" name="dc" stackId="1" startPc="268438901"/>
+        <entry endPc="268440131" name="dc" stackId="1" startPc="268439835"/>
+        <entry endPc="268440508" name="dc" stackId="1" startPc="268440131"/>
+        <entry endPc="268440978" name="hr" stackId="4" startPc="268440796"/>
+        <entry endPc="268441049" name="tmp" stackId="3" startPc="268440512"/>
+        <entry endPc="268441049" name="sy" stackId="2" startPc="268440512"/>
+        <entry endPc="268441050" name="dc" stackId="1" startPc="268440508"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
