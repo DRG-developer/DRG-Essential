@@ -71,7 +71,7 @@
             <iq:product id="marqexpedition"/> <!-- tested in sim -->
             
             <!-- non sport watches (read: golf watches XD )-->
-			<!-- doesnt have heart rate <iq:product id="approachs60"/> -->
+		    <iq:product id="approachs62"/> -->
 			
 			<!--  misc-->
 			<iq:product id="fenixchronos"/> <!-- tested in sim -->
