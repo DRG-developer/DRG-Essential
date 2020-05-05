@@ -1,5 +1,5 @@
 <properties>
-	<property id="AppVersion" type="string">0.0.6.3</property>
+	<property id="AppVersion" type="string">0.0.6.6</property>
 	<property id="redrawFullScr" type="number">1</property>
 	<property id="DataField" type="number">1</property>
 	<property id="colAccent" type="number">11</property>
