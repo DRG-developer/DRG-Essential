@@ -28,6 +28,8 @@ DRG Essential is a watchface with only the essential stuff:
   </li>
 
  </ul>
+ 
+this is just a copy of my dev directory without the private key, so there might be useless stuff, but that shouldn't cause a problem.
 
 if you like my work, donate me! (if you got the money, no preasure!)
 for 2 euro's / pounds / dollars, or something with the same value of that in you currency, will get you DRG Clutterless premium features, 5 euro's / pounds / dollars, or something with the same value in of that in your currency will unlock  premium features on all watchfaces that i've made, and that will come out later
