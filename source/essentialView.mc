@@ -22,10 +22,12 @@ class EssentialView extends WatchUi.WatchFace {
 		
 		
 		var colBLACK  = 0x000000;
-		var colACCENT = 0xFFFF00; 
-		var colTIME   = 0xFFFF00; 
-		var colGRAY   = 0xAAAAAA;
-		var colWHITE  = 0xFFFFFF;      
+		var colACCENT = 0x00AAFF; 
+		var colTIME   = 0xFFFFFF; 
+		var colGRAY   = 0xFFFFFF;
+		var colWHITE  = 0xFFFFFF; 
+		var colDATE   = 0x00AAFF;
+		var colGOAL   = 0xFFFFFF;     
 		
 		var colTRANSPARENT = Graphics.COLOR_TRANSPARENT;
 		
@@ -46,6 +48,7 @@ class EssentialView extends WatchUi.WatchFace {
 		var stepGoalX = 0;
 		var venuY = 0;
 		var venuY2 = 0;
+		var bsop;
 		
 		var restoreFromResume = 5;
 		var BS_solv = 0;
@@ -129,11 +132,16 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			
 			
-			dc.setColor(colGRAY, colTRANSPARENT);
+			dc.setColor(colGOAL, colTRANSPARENT);
 			for(i = 0; i < stepBarThickness; i++){
 				dc.drawArc(scrRadius, scrRadius + venuY2, arcYPoint - i, 0, 210 + i / 4, 330 - i / 3.8);
 			}
 	
+		}
+		
+		function onSettingsChanged(){
+			getSett();
+			WatchUi.requestUpdate();
 		}
 		function getSett(){
 			if(production == false){ return;}
@@ -141,12 +149,14 @@ class EssentialView extends WatchUi.WatchFace {
 			colACCENT     = switchCol(app.getProperty("colAccent"));
 			colTIME       = switchCol(app.getProperty("colTime"));
 			colBLACK      = switchCol(app.getProperty("colBg"));
+			colDATE       = switchCol(app.getProperty("colDate")); 
+			colGOAL       = switchCol(app.getProperty("colGoal"));
 			colWHITE      = 0xFFFFFF;
-			colBLACK      = 0x000000;
+			//colBLACK      = 0x000000;
 			alwaysRedrawBG  = app.getProperty("redrawFullScr");
 			datafield     = app.getProperty("DataField");
-	
 		}
+		
 		function switchCol(x){
 			
 			
@@ -184,6 +194,9 @@ class EssentialView extends WatchUi.WatchFace {
 			}
 			else if( x == 11){
 				return 0x00AAFF;
+			}
+			else if( x == 12){
+				return 0xFF00FF;
 			}
 		}
 		function onShow(){
@@ -224,13 +237,13 @@ class EssentialView extends WatchUi.WatchFace {
 				dc.fillCircle(scrRadius, scrRadius, scrRadius);
 				drawDateString(dc);
 				goalDrawn = false;
-				dc.setColor(colGRAY, colTRANSPARENT);
+				dc.setColor(colGOAL, colTRANSPARENT);
 				for(i = 0; i < stepBarThickness; i++){
 					dc.drawArc(scrRadius, scrRadius + venuY2, arcYPoint - i, 0, 210 + i / 4, 330 - i / 3.8);
 				}
 				
 			}
-				dc.setColor(colBLACK, colTRANSPARENT);
+			dc.setColor(colBLACK, colTRANSPARENT);
 			
 			
 	
@@ -331,7 +344,7 @@ class EssentialView extends WatchUi.WatchFace {
 		function drawDateString(dc){
 			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 			oldDayOfWeek = time.day_of_week;
-			dc.setColor(colACCENT, colBLACK);
+			dc.setColor(colDATE, colBLACK);
 			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 2, SFont, dayOfWeekArr[time.day_of_week] + " " + time.day, 2);
 			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 14, SFont, monthOfYear[time.month], 2);
 			
@@ -373,7 +386,7 @@ class EssentialView extends WatchUi.WatchFace {
 			} else if(datafield == 1){
 				sy = 48;
 				dc.setColor(colGRAY, colTRANSPARENT);
-			    dc.drawBitmap(scrRadius - 10, 45, complicationIcon);
+			    dc.drawBitmap(scrRadius - 11, 45, complicationIcon);
 				var hr =  ActivityMonitor.getHeartRateHistory(1, true).next();
 			    tmp  = (hr.heartRate != ActivityMonitor.INVALID_HR_SAMPLE && hr.heartRate > 0) ? hr.heartRate : 0;
 			    tmp = tmp.toString();

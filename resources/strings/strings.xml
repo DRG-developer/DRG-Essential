@@ -1,17 +1,19 @@
 <strings>
 	<string id="AppVersionTitle">App Version</string>
-	<string id="explainer">to save battery, by default i chose to only redraw the background once every day, or when you gesture. sometimes this will cause the screen to not fully update, and the backgroundof the previous screenw will be on screen (only sometimes), this can be resolved by either gesturing, pressing up and down (scrolling trhough the widgets and back), or changint the setting to draw the background every minute. almost every watchface does the latter, but that does impact battery life, so i made it an option</string>
+	<string id="explainer">how often should the screen be redrawn?</string>
     <string id="dodraw">draw every minute</string>
     <string id="dontdraw">don't draw every minute</string>
     <string id="AppName">essential</string>
-    <string id="DataField">the data field to draw, if your device doesnt support this, don't choose it (the fr245 doesn't support stairs for example). the watchface will crash if you choose one that isnt supported, if that happens, no worries! just change the datafield to one that your device does support and done</string>
+    <string id="DataField">the data field to draw, (not all devices support stairs!)</string>
     <string id="HRField">heart rate field</string>
     <string id="StairsField">floors climbed field</string>
     <string id="EmptyField">display nothing</string>
     <string id="colGray">the color of the data fields</string>
     <string id="colBg">the background color</string>
+    <string id="colDate">the color of the date sentence</string>
     <string id="colTime">the color of the time</string>
-    <string id="colAccent">the accent color (the color of the battery ring, and steps indicator)</string>
+    <string id="colGoal">color of the goal part that you havent completed</string>
+    <string id="colAccent">the accent color (the color of the battery and steps ring)</string>
     <string id="leadingHourZero">display a leading zero if the hour is lower than 10</string>
     
     
@@ -27,5 +29,6 @@
     <string id="colVibrGreen"> vibrant green </string>
     <string id="colSubtBlue">  blue  </string>
     <string id="colVibrBlue">  lighter blue  </string>
+    <string id="colFuchsia"> a purple / fuchsia color </string>
     
 </strings>
