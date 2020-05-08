@@ -1,7 +1,5 @@
 <settings>
-	<setting propertyKey="@Properties.AppVersion" title="@Strings.AppVersionTitle">
-		<settingConfig type="alphaNumeric" readonly="true"/>
-	</setting>
+
 	
 	<setting propertyKey="@Properties.DataField" title="@Strings.DataField">
 		<settingConfig type="list">
@@ -37,6 +35,19 @@
 		</settingConfig>
 	</setting>
 	
+		<setting propertyKey="@Properties.stepsConfig" title="@Strings.stepsConfig">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.all</listEntry>
+			<listEntry value="1">@Strings.onlyGoal</listEntry>
+			<listEntry value="2">@Strings.onlyPercentage</listEntry>
+			<listEntry value="3">@Strings.onlySteps</listEntry>
+			<listEntry value="4">@Strings.stepsAndGoal</listEntry>
+			<listEntry value="5">@Strings.GoalAndPercentage</listEntry>	
+			<listEntry value="6">@Strings.stepsAndPercentage</listEntry>	
+			<listEntry value="7">@Strings.nothing</listEntry>	
+		</settingConfig>
+	</setting>
+	
 	<setting propertyKey="@Properties.colBg" title="@Strings.colBg">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.colSubtYel</listEntry>
@@ -55,7 +66,7 @@
 		</settingConfig>
 	</setting>
 	
-		<setting propertyKey="@Properties.colGoal" title="@Strings.colGoal">
+	<setting propertyKey="@Properties.colGoal" title="@Strings.colGoal">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.colSubtYel</listEntry>
 			<listEntry value="1">@Strings.colVibrYel</listEntry>
@@ -73,7 +84,42 @@
 		</settingConfig>
 	</setting>
 	
+	<setting propertyKey="@Properties.timeFont" title="@Strings.timeFont">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.defaultFont</listEntry>
+			<listEntry value="1">@Strings.biggerFont</listEntry>
+			<listEntry value="2">@Strings.massiveFont</listEntry>
+		</settingConfig>
+	</setting>
 	
+	<setting propertyKey="@Properties.leadingHourZero" title="@Strings.leadingHourZero">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.noLeadingHourZero</listEntry>
+			<listEntry value="1">@Strings.leadingHourZero</listEntry>
+		</settingConfig>
+	</setting>
+	<setting propertyKey="@Properties.venuAlwaysOn" title="@Strings.venuAlwaysOn">
+		<settingConfig type="boolean">
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.twelveHClock" title="@Strings.twelveHClock">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.logicalClock</listEntry>
+			<listEntry value="1">@Strings.stupidTwelveHClock</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.dateFont" title="@Strings.dateFont">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.smallFont</listEntry>
+			<listEntry value="1">@Strings.lessSmallFont</listEntry>
+			<listEntry value="2">@Strings.regFont</listEntry>
+			<listEntry value="3">@Strings.bigFont</listEntry>
+			<listEntry value="4">@Strings.biggerFont</listEntry>
+			<listEntry value="5">@Strings.massiveFont</listEntry>
+		</settingConfig>
+	</setting>
 	
 	
 	
@@ -95,7 +141,7 @@
 		</settingConfig>
 	</setting>
 	
-		<setting propertyKey="@Properties.colDate" title="@Strings.colDate">
+	<setting propertyKey="@Properties.colDate" title="@Strings.colDate">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.colSubtYel</listEntry>
 			<listEntry value="1">@Strings.colVibrYel</listEntry>

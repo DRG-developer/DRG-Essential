@@ -15,7 +15,22 @@
     <string id="colGoal">color of the goal part that you havent completed</string>
     <string id="colAccent">the accent color (the color of the battery and steps ring)</string>
     <string id="leadingHourZero">display a leading zero if the hour is lower than 10</string>
+    <string id="noLeadingHourZero"> don't display a leading zero if the hour is lower than 10</string>
     
+    <string id="logicalClock">use the 24h clock</string>
+    <string id="stupidTwelveHClock"> use the 12h clock</string>
+    <string id="twelveHClock"> 24 or 12 hour clock</string>
+    
+    <string id="stepsConfig">options for cleaner step complication</string>
+    <string id="all">draw everything</string>
+    <string id="onlyGoal">draw only the goal</string>
+    <string id="onlyPercentage">draw only the percentage</string>
+    <string id="onlySteps">draw only the amount of steps</string>
+    <string id="stepsAndGoal">draw only the steps and goal</string>
+    <string id="GoalAndPercentage">draw the goal and percentage</string>
+    <string id="stepsAndPercentage">draw only the steps and percentage</string>
+    <string id="nothing">draw nothing (only the bar)</string>
+    <string id="venuAlwaysOn">(VENU ONLY) have the screen always on </string>
     
     <string id="colVibrYel"> vibrant yellow </string>
     <string id="colSubtYel"> more subtile yellow </string>
@@ -30,5 +45,20 @@
     <string id="colSubtBlue">  blue  </string>
     <string id="colVibrBlue">  lighter blue  </string>
     <string id="colFuchsia"> a purple / fuchsia color </string>
+    
+    <string id="dateFont">(NOT FOR VENU)size of the date and datafield text</string>
+    <string id="timeFont">(NOT FOR VENU)size of the time</string>
+    
+    <string id="defaultFont"> the default font </string>
+    <string id="biggerFont"> a bigger than default font </string>
+    <string id="massiveFont"> an absolutely massive font </string>
+    <string id="XmassiveFont"> even more massive font </string>
+    
+    <string id="smallFont"> a tiny font </string>
+    <string id="lessSmallFont"> less tiny font </string>
+    <string id="regFont"> mid size font </string>
+    <string id="bigFont">a big font </string>
+    <string id="biggerFont"> a bigger font </string>
+    <string id="massiveFont"> biggest font </string>
     
 </strings>

@@ -1,8 +1,11 @@
  <resources>  
-   <bitmap id="StairsIcon" filename="icons/stairs.png"> 
-    </bitmap>
+   <bitmap id="VenuStairs" filename="icons/venuStairs.png"> </bitmap>
+   <bitmap id="StairsIcon" filename="icons/stairs.png"> </bitmap>
     
+   
 	<bitmap id="HeartRate" filename="icons/HR.png">
+	</bitmap>
+	<bitmap id="VenuRate" filename="icons/HR-venu.png">
 	</bitmap>
 	
 	<bitmap id="inherit" filename="icons/inherit.png">

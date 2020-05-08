@@ -1,9 +1,18 @@
 <resources>
     <fonts>
 		<font id="XTinyFont" filename="fonts/XTinyFont.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="smallFont" filename="fonts/15px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="mediumFont" filename="fonts/45px-ariel.fnt" filter="0123456789" />
-        <font id="massiveFont" filename="fonts/90px-ariel-bold.fnt" filter="0123456789" />
+        <font id="SmallFont" filename="fonts/15px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="BiggerSmallFont" filename="fonts/16px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="XSmallFont" filename="fonts/17px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="XLSmallFont" filename="fonts/18px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="XXLSmallFont" filename="fonts/19px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="XXXLSmallFont" filename="fonts/20px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="MediumFont" filename="fonts/45px-ariel.fnt" filter="0123456789" />
+        <font id="BiggerMediumFont" filename="fonts/50px-ariel.fnt" filter="0123456789" />
+        <font id="XMediumFont" filename="fonts/55px-ariel.fnt" filter="0123456789" />
+        <font id="MassiveFont" filename="fonts/90px-ariel-bold.fnt" filter="0123456789" />
+        <font id="BiggerMassiveFont" filename="fonts/100px-ariel-bold.fnt" filter="0123456789" />
+        <font id="XMassiveFont" filename="fonts/110px-ariel-bold.fnt" filter="0123456789" />
         <font id="icons" filename="fonts/icons.fnt" filter=""/>
     </fonts>
 </resources>
