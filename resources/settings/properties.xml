@@ -12,6 +12,6 @@
 	<property id="dateFont" type="number">2</property>
 	<property id="stepsConfig" type="number">0</property>
 	<property id="leadingHourZero" type="number">0</property>
-	<property id="twelveHClock" type="number">1</property>
+	<property id="twelveHClock" type="number">0</property>
 	<property id="venuAlwaysOn" type="boolean">true</property>
 </properties>

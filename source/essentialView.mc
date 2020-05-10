@@ -1,11 +1,12 @@
 using Toybox.Graphics;
 using Toybox.Lang;
 using Toybox.System as Sys;
-using Toybox.Time;
+//using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.WatchUi;
 using Toybox.Application;
 using Toybox.ActivityMonitor;
+using Toybox.Activity;
 //using Toybox.Communications;
 
 
@@ -31,9 +32,10 @@ class EssentialView extends WatchUi.WatchFace {
 		var colTRANSPARENT = -1;
 		
 		/* DEPRECATED */
-		var dayOfWeekArr = ["", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+	/*	var dayOfWeekArr = ["", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 		var monthOfYear  = ["", "Jan", "Feb", "March", "April", "May", "June", "July",
 							"Aug", "sep", "Oct", "Nov", "Dec"];
+		*/
 		/* CHANGE TO FORMAT MEDIUM*/
 		
 		
@@ -42,16 +44,14 @@ class EssentialView extends WatchUi.WatchFace {
 		var stepBarThickness = 6;
 		var arcYPoint;
 		
-		/* DEPRECATED */
-		var XSFont;
-		var SFont;
-		var BFont;
-		var MFont;
-		/* CHANGE TO ONE FONT ARRAY */
 		
-		var DrawStepsPerc = true;
-		var DrawStepsCount = true;
-		var DrawStepsGoal = true;
+		var Font = ["", "", "", ""];
+		
+
+		
+		var DrawStepsStuff = [true, true, true];
+		
+		
 		
 		
 		/* DEPRECATED*/
@@ -61,13 +61,12 @@ class EssentialView extends WatchUi.WatchFace {
 		var venuY = 0;
 		var venuY2 = 0;
 		var sx = 0;
-		var bsop;
+		
 		var screenCanBurn = false;
 		/* CHANGE TO JSONS OR SETTNGS, WHATEVER< JUST SMARTER*/
 		
 		var restoreFromResume = 5;
 		/* DEPRECATED */
-		var BS_solv = 0;
 		var fontSizeTime, fontSizeDate;
 		/* SHOULD BE REMOVED */
 		
@@ -78,9 +77,6 @@ class EssentialView extends WatchUi.WatchFace {
 		var timeStr2;
 		/* USE ONE STRING WITH NEWLINE? */
 		
-		/* DEPRECATED */
-		var production = true;
-		/* will be removed */
 		var tmpDraw;
 		var drawZero;
 		var steps;
@@ -98,7 +94,7 @@ class EssentialView extends WatchUi.WatchFace {
 		/* DEPRECATED */
 		var fullRedraw = false;
 		var needsRedraw;
-		var hiddenV = false;
+		
 		/* USE ONE VAR */
 		var datafield = 1; //-1 = none, 0 = stairs, 1= HR
 		
@@ -149,10 +145,10 @@ class EssentialView extends WatchUi.WatchFace {
 			}
 			
 			
-			XSFont= WatchUi.loadResource(Rez.Fonts.XTinyFont);
-			if (SFont == null){ SFont = WatchUi.loadResource(Rez.Fonts.SmallFont); }
-			if (BFont == null){ BFont = WatchUi.loadResource(Rez.Fonts.MediumFont); }
-			if (MFont == null){ MFont = WatchUi.loadResource(Rez.Fonts.MassiveFont); }
+			Font[0] = WatchUi.loadResource(Rez.Fonts.XTinyFont);
+			//if (Font[1] == null){ Font[1] = WatchUi.loadResource(Rez.Fonts.SmallFont); }
+			//if (Font[2] == null){ Font[2] = WatchUi.loadResource(Rez.Fonts.MediumFont); }
+			//if (Font[3] == null){ Font[3]  = WatchUi.loadResource(Rez.Fonts.MassiveFont); }
 		
 		
 			scrHeight = dc.getHeight();
@@ -168,8 +164,8 @@ class EssentialView extends WatchUi.WatchFace {
 					sx = 7;		
 				}
 				
-				MFont  = 17;
-				BFont  = 15;
+				Font[3]   = 17;
+				Font[2]  = 15;
 				venuY  = -30;
 				venuY2 = -12;
 				dateYD =  -3;
@@ -177,8 +173,8 @@ class EssentialView extends WatchUi.WatchFace {
 				screenCanBurn = true;
 				
 			
-				XSFont = WatchUi.loadResource(Rez.Fonts.XSmallFont);
-				SFont  = WatchUi.loadResource(Rez.Fonts.XXXLSmallFont);
+				Font[0] = WatchUi.loadResource(Rez.Fonts.XSmallFont);
+				Font[1]  = WatchUi.loadResource(Rez.Fonts.XXXLSmallFont);
 				battCircleThickness = 10;
 				stepBarThickness = 8;
 			}
@@ -192,7 +188,7 @@ class EssentialView extends WatchUi.WatchFace {
 					complicationIcon = WatchUi.loadResource(Rez.Drawables.VenuRate);
 					sx = 6;		
 				}
-				XSFont = WatchUi.loadResource(Rez.Fonts.XSmallFont);
+				Font[0] = WatchUi.loadResource(Rez.Fonts.XSmallFont);
 			}
 			
 			stepY       = scrRadius * 0.54;
@@ -223,9 +219,9 @@ class EssentialView extends WatchUi.WatchFace {
 			colBLACK      = switchCol(app.getProperty("colBg"));
 			colDATE       = switchCol(app.getProperty("colDate")); 
 			colGOAL       = switchCol(app.getProperty("colGoal"));
-			MFont         = switchCol2(app.getProperty("timeFont"), 0);
-			BFont         = switchCol2(app.getProperty("timeFont"), 1);
-			SFont         = switchCol2(app.getProperty("dateFont"), 2);
+			Font[3]          = switchCol2(app.getProperty("timeFont"), 0);
+			Font[2]         = switchCol2(app.getProperty("timeFont"), 1);
+			Font[1]         = switchCol2(app.getProperty("dateFont"), 2);
 			drawZero      = app.getProperty("leadingHourZero");
 			twelveHClock  = app.getProperty("twelveHClock");
 			alwaysOn      = app.getProperty("venuAlwaysOn");
@@ -361,42 +357,48 @@ function venuUpdate(dc){
 				}
 		}
 		function switchCol3(x){
+			Sys.println(x);
 				switch (x){
 				case 0:
-					DrawStepsPerc = true;
-					DrawStepsGoal = true;
-					DrawStepsCount = true;
+					DrawStepsStuff[0] = true;
+					DrawStepsStuff[2] = true;
+					DrawStepsStuff[1] = true;
+					break;
 				case 1:
-					DrawStepsPerc = false;
-					DrawStepsGoal = true;
-					DrawStepsCount = false;
+					DrawStepsStuff[0] = false;
+					DrawStepsStuff[2] = true;
+					DrawStepsStuff[1] = false;
+					break;
 				case 2:
-					DrawStepsPerc = true;
-					DrawStepsGoal = false;
-					DrawStepsCount = false;
+					DrawStepsStuff[0] = true;
+					DrawStepsStuff[2] = false;
+					DrawStepsStuff[1] = false;
+					break;
 				case 3:
-					DrawStepsPerc = false;
-					DrawStepsGoal = false;
-					DrawStepsCount = true;
+					DrawStepsStuff[0] = false;
+					DrawStepsStuff[2] = false;
+					DrawStepsStuff[1]  = true;
+					break;
 				case 4:
-					DrawStepsPerc = false;
-					DrawStepsGoal = true;
-					DrawStepsCount = true;
+					DrawStepsStuff[0] = false;
+					DrawStepsStuff[2] = true;
+					DrawStepsStuff[1] = true;
 				case 5:
-					DrawStepsPerc = true;
-					DrawStepsGoal = true;
-					DrawStepsCount = false;
+					DrawStepsStuff[0] = true;
+					DrawStepsStuff[2] = true;
+					DrawStepsStuff[1] = false;
+					break;
 				case 6:
-					DrawStepsPerc = true;
-					DrawStepsGoal = false;
-					DrawStepsCount = true;
+					DrawStepsStuff[0] = true;
+					DrawStepsStuff[2] = false;
+					DrawStepsStuff[1] = true;
+					break;
 				case 7:
-					DrawStepsPerc = false;
-					DrawStepsGoal = false;
-					DrawStepsCount = false;
+					DrawStepsStuff[0] = false;
+					DrawStepsStuff[2] = false;
+					DrawStepsStuff[1] = false;
+					break;
 				}
-			
-			
 			
 		}
 		
@@ -407,7 +409,7 @@ function venuUpdate(dc){
 		}
 		
 		function onHide(){
-			hiddenV = true;
+			
 		
 		}
 			
@@ -420,10 +422,7 @@ function venuUpdate(dc){
 				fullRedraw = true;
 				
 		}
-		
-		
-
-		
+				
 		
 		function onUpdate(dc){
 			if(venuSleep && screenCanBurn){
@@ -435,19 +434,17 @@ function venuUpdate(dc){
 			venuOffset = [0, 0, 1];
 				//if (settingsChanged){ getSett();}
 			dc.clearClip();
+		
 			dc.setColor(colBLACK, colBLACK);
 			if(alwaysRedrawBG == 1){dc.fillCircle(scrRadius, scrRadius, scrRadius);}
 			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 			battPercent = Sys.getSystemStats().battery;
 		
-			if(hiddenV == true || fullRedraw == true ||tmpDraw == true || time.day_of_week != oldDayOfWeek || alwaysRedrawBG == 1){
+			if(fullRedraw == true ||tmpDraw == true || time.day_of_week != oldDayOfWeek || alwaysRedrawBG == 1){
 					
-				BS_solv ++;
+
 				drwBatt = true;
-				if(BS_solv >= 2){
-					hiddenV = false;
-					BS_solv = 0;
-				}
+			
 					
 				dc.setColor(colBLACK, colBLACK);
 				dc.clear();
@@ -464,29 +461,23 @@ function venuUpdate(dc){
 			}
 				
 				
-			dc.setColor(colBLACK, colTRANSPARENT);
-				
-				
-			dc.drawText(scrRadius + 4, scrRadius - 45 + venuY + timeHY, MFont, timeStr1, 0);
-			dc.drawText(scrRadius + 8, scrRadius - 35 + venuY + timeMY, BFont, timeStr2, 2);
-			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+			dc.setColor(colBLACK, colTRANSPARENT);													/* draw the old time in the background color first, so that it dissapears*/
+			dc.drawText(scrRadius + 4, scrRadius - 45 + venuY + timeHY, Font[3] , timeStr1, 0);		/* it still uses the old time */
+			dc.drawText(scrRadius + 8, scrRadius - 35 + venuY + timeMY, Font[2], timeStr2, 2);		/* now fetch the new time */
+			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);									 
 		
 				
 			drawStepComplication(dc);
 			drawComplication(dc);
-				
-		
-				
+	
 
 		
-				if((battPercent - oldBattPercent) > 0.4 || goalDrawn == false || fullRedraw == true || drwBatt == true || alwaysRedrawBG == 1){
+			if((battPercent - oldBattPercent) > 0.4 || goalDrawn == false || fullRedraw == true || drwBatt == true || alwaysRedrawBG == 1){
 					drawDateString(dc);
 					drawBattComplication(dc);
 					drwBatt = false;
-				}
-				drawTimeString(dc);		
-			
-			
+			}
+			drawTimeString(dc);			
 		}
 		
 		function onPartialUpdate(dc){
@@ -496,9 +487,13 @@ function venuUpdate(dc){
 					venuUpdate(dc);
 					return;
 			}
-			if(restoreFromResume < 4){
+		//	if(datafield == 1){
+			//	drawComplication(dc);
+			//}
+			
+			if(restoreFromResume < 2){
 				restoreFromResume ++;
-				if(restoreFromResume == 4){
+				if(restoreFromResume == 3){
 					tmpDraw = true;
 					WatchUi.requestUpdate();
 					dc.setClip(0, 45, 40, 165);
@@ -533,9 +528,10 @@ function venuUpdate(dc){
 		
 			dc.setColor(colBLACK, colTRANSPARENT);
 			dc.drawText(scrRadius, arcYPoint + stepY, 0, steps, 1 );
-			dc.drawText(scrRadius, scrRadius + stepPerY, SFont, percentage + "%", 1);
+			dc.drawText(scrRadius, scrRadius + stepPerY, Font[1], percentage + "%", 1);
 			dc.setColor(colGRAY, colTRANSPARENT);
-			if(DrawStepsCount == true){
+			Sys.println(DrawStepsStuff[1]);
+			if(DrawStepsStuff[1]  == true){
 				dc.drawText(scrRadius, arcYPoint + stepY, 0, ActivityMonitor.getInfo().steps, 1);
 			}
 		
@@ -543,9 +539,9 @@ function venuUpdate(dc){
 			steps = activityInfo.steps;
 			goal = activityInfo.stepGoal;
 			
-			if (goalDrawn == false && DrawStepsGoal == true){
+			if (goalDrawn == false && DrawStepsStuff[2] == true){
 					dc.setColor(colGRAY, colTRANSPARENT);
-					dc.drawText(scrRadius + stepGoalX, arcYPoint + stepY - 13 + venuY2, SFont, goal, 1);
+					dc.drawText(scrRadius + stepGoalX, arcYPoint + stepY - 13 + venuY2, Font[1], goal, 1);
 					goalDrawn = true;
 					
 			}
@@ -565,8 +561,8 @@ function venuUpdate(dc){
 			}
 			percentage = (((drwSteps.toFloat()) / (goal.toFloat())) * 100).toNumber().toString() ;
 			dc.setColor(colGRAY, colTRANSPARENT);
-			if(DrawStepsPerc == true){
-				dc.drawText(scrRadius, scrRadius + stepPerY, SFont, percentage + "%", 1);
+			if(DrawStepsStuff[0] == true){
+				dc.drawText(scrRadius, scrRadius + stepPerY, Font[1], percentage + "%", 1);
 			}
 			
 			//steps = null;
@@ -576,30 +572,30 @@ function venuUpdate(dc){
 		}
 		
 		function drawDateString(dc){
-			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+			time = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 			oldDayOfWeek = time.day_of_week;
 			dc.setColor(colDATE, colBLACK);
-			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 2 + dateYD, SFont, dayOfWeekArr[time.day_of_week] + " " + time.day, 2);
-			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 14 + dateYM, SFont, monthOfYear[time.month], 2);
+			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 2 + dateYD, Font[1], /*dayOfWeekArr[*/time.day_of_week + " " + time.day, 2);
+			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 14 + dateYM, Font[1], /*monthOfYear[*/time.month, 2);
 			
 		}
 		
 		function drawTimeString(dc){
 			dc.setColor(colBLACK, colTRANSPARENT);
-			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+			time = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 
 			 timeStr1 = time.hour.format((drawZero == 1 ? "%02d" : "%d" ));
 			 timeStr2 = time.min.format("%02d");
 			 
-			 if(twelveHClock == 1 && timeStr1.toNumber() > 12 ) {
-					timeStr1 =  (time.hour.toNumber() - 12).format((drawZero == 1 ? "%02d" : "%d" )).toString();
-			 }
+			 //if(twelveHClock == 1 && timeStr1.toNumber() > 12 ) {
+			//		timeStr1 =  (time.hour.toNumber() - 12).format((drawZero == 1 ? "%02d" : "%d" )).toString();
+			 //}
 		
 		
 				
 			dc.setColor(colTIME, colTRANSPARENT);
-			dc.drawText(scrRadius + 4, scrRadius - 45 + venuY + timeHY, MFont, timeStr1, 0);
-			dc.drawText(scrRadius + 8, scrRadius - 35 + venuY + timeMY, BFont, timeStr2, 2);
+			dc.drawText(scrRadius + 4, scrRadius - 45 + venuY + timeHY, Font[3], timeStr1, 0);
+			dc.drawText(scrRadius + 8, scrRadius - 35 + venuY + timeMY, Font[2], timeStr2, 2);
 	
 		}
 		
@@ -613,7 +609,7 @@ function venuUpdate(dc){
 			
 			dc.setColor(colGRAY, colTRANSPARENT);
 			
-			var tmp = "-";
+			var tmp = "0";
 			if (datafield == 0){
 				dc.setColor(colGRAY, colTRANSPARENT);
 			    dc.drawBitmap(scrRadius - 10 -sx, 45 - venuY2, complicationIcon);
@@ -621,17 +617,21 @@ function venuUpdate(dc){
 				dc.setColor(colBLACK, colTRANSPARENT);
 				dc.fillRectangle(110, 51, 8, 10);
 			} else if(datafield == 1){
-				
+
 				dc.setColor(colGRAY, colTRANSPARENT);
 			    dc.drawBitmap(scrRadius - 11 - sx, 45 - venuY2, complicationIcon);
-				var hr =  ActivityMonitor.getHeartRateHistory(1, true).next();
-			    tmp  = (hr.heartRate != ActivityMonitor.INVALID_HR_SAMPLE && hr.heartRate > 0) ? hr.heartRate : 0;
-			    tmp = tmp.toString();
+				var hr = Activity.getActivityInfo().currentHeartRate;
+				if(hr == null) {
+					hr = ActivityMonitor.getHeartRateHistory(1, true).next().heartRate;
+				}
+			    tmp  = ((hr != ActivityMonitor.INVALID_HR_SAMPLE && hr > 0) ? hr : 0).toString();
+			    hr = null;
 			}
 		
 			dc.setColor((datafield == 1 ? colBLACK : colGRAY), colTRANSPARENT);
-			dc.drawText(scrRadius, sy - venuY2, XSFont, tmp , 1);	
+			dc.drawText(scrRadius, sy - venuY2, Font[0], tmp , 1);	
 			tmp = null;	
+			
 		}
 
 }
