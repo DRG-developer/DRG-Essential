@@ -32,10 +32,10 @@ class EssentialView extends WatchUi.WatchFace {
 		var colTRANSPARENT = -1;
 		
 		/* DEPRECATED */
-	/*	var dayOfWeekArr = ["", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+		var dayOfWeekArr = ["", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 		var monthOfYear  = ["", "Jan", "Feb", "March", "April", "May", "June", "July",
-							"Aug", "sep", "Oct", "Nov", "Dec"];
-		*/
+							"Aug", "Sep", "Oct", "Nov", "Dec"];
+		
 		/* CHANGE TO FORMAT MEDIUM*/
 		
 		
@@ -135,17 +135,20 @@ class EssentialView extends WatchUi.WatchFace {
 			
 			if (datafield == 0) { // stairs climbed
 				complicationIcon = WatchUi.loadResource(Rez.Drawables.StairsIcon);
+				sy = 50;
+				sx = 7;
 				
             } else if (datafield == 1){ //heart rate field
-				complicationIcon = WatchUi.loadResource(Rez.Drawables.HeartRate);
+				complicationIcon = WatchUi.loadResource(Rez.Drawables.VenuRate);
 				sy = 48;
+				sx = 6;
 			
             } else{
 				complicationIcon = WatchUi.loadResource(Rez.Drawables.inherit);
 			}
 			
 			
-			Font[0] = WatchUi.loadResource(Rez.Fonts.XTinyFont);
+			Font[0] = WatchUi.loadResource(Rez.Fonts.XSmallFont);
 			//if (Font[1] == null){ Font[1] = WatchUi.loadResource(Rez.Fonts.SmallFont); }
 			//if (Font[2] == null){ Font[2] = WatchUi.loadResource(Rez.Fonts.MediumFont); }
 			//if (Font[3] == null){ Font[3]  = WatchUi.loadResource(Rez.Fonts.MassiveFont); }
@@ -357,7 +360,6 @@ function venuUpdate(dc){
 				}
 		}
 		function switchCol3(x){
-			Sys.println(x);
 				switch (x){
 				case 0:
 					DrawStepsStuff[0] = true;
@@ -383,6 +385,7 @@ function venuUpdate(dc){
 					DrawStepsStuff[0] = false;
 					DrawStepsStuff[2] = true;
 					DrawStepsStuff[1] = true;
+					break;
 				case 5:
 					DrawStepsStuff[0] = true;
 					DrawStepsStuff[2] = true;
@@ -397,6 +400,11 @@ function venuUpdate(dc){
 					DrawStepsStuff[0] = false;
 					DrawStepsStuff[2] = false;
 					DrawStepsStuff[1] = false;
+					break;
+				default:
+					DrawStepsStuff[0] = true;
+					DrawStepsStuff[2] = true;
+					DrawStepsStuff[1] = true;
 					break;
 				}
 			
@@ -530,7 +538,7 @@ function venuUpdate(dc){
 			dc.drawText(scrRadius, arcYPoint + stepY, 0, steps, 1 );
 			dc.drawText(scrRadius, scrRadius + stepPerY, Font[1], percentage + "%", 1);
 			dc.setColor(colGRAY, colTRANSPARENT);
-			Sys.println(DrawStepsStuff[1]);
+			
 			if(DrawStepsStuff[1]  == true){
 				dc.drawText(scrRadius, arcYPoint + stepY, 0, ActivityMonitor.getInfo().steps, 1);
 			}
@@ -572,11 +580,11 @@ function venuUpdate(dc){
 		}
 		
 		function drawDateString(dc){
-			time = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+			time = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 			oldDayOfWeek = time.day_of_week;
 			dc.setColor(colDATE, colBLACK);
-			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 2 + dateYD, Font[1], /*dayOfWeekArr[*/time.day_of_week + " " + time.day, 2);
-			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 14 + dateYM, Font[1], /*monthOfYear[*/time.month, 2);
+			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 2 + dateYD, Font[1], dayOfWeekArr[time.day_of_week] + " " + time.day, 2);
+			dc.drawText(scrRadius + (scrHeight / 30), scrRadius + 14 + dateYM, Font[1], monthOfYear[time.month], 2);
 			
 		}
 		
@@ -587,9 +595,9 @@ function venuUpdate(dc){
 			 timeStr1 = time.hour.format((drawZero == 1 ? "%02d" : "%d" ));
 			 timeStr2 = time.min.format("%02d");
 			 
-			 //if(twelveHClock == 1 && timeStr1.toNumber() > 12 ) {
-			//		timeStr1 =  (time.hour.toNumber() - 12).format((drawZero == 1 ? "%02d" : "%d" )).toString();
-			 //}
+			 if(twelveHClock == 1 && timeStr1.toNumber() > 12 ) {
+					timeStr1 =  (time.hour.toNumber() - 12).format((drawZero == 1 ? "%02d" : "%d" )).toString();
+			 }
 		
 		
 				
@@ -611,11 +619,12 @@ function venuUpdate(dc){
 			
 			var tmp = "0";
 			if (datafield == 0){
+				dc.setColor(colBLACK, colTRANSPARENT);
+				dc.fillRectangle(110, 51, 8, 10);
 				dc.setColor(colGRAY, colTRANSPARENT);
 			    dc.drawBitmap(scrRadius - 10 -sx, 45 - venuY2, complicationIcon);
 				tmp = (ActivityMonitor.getInfo().floorsClimbed == null ?  0 :  ActivityMonitor.getInfo().floorsClimbed);
-				dc.setColor(colBLACK, colTRANSPARENT);
-				dc.fillRectangle(110, 51, 8, 10);
+				
 			} else if(datafield == 1){
 
 				dc.setColor(colGRAY, colTRANSPARENT);

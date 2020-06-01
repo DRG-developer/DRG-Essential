@@ -312,44 +312,44 @@
         <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="24" lineNum="584" pc="268443324" symbol="drawDateString"/>
         <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="24" lineNum="585" pc="268443346" symbol="drawDateString"/>
         <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="24" lineNum="586" pc="268443374" symbol="drawDateString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="24" lineNum="587" pc="268443486" symbol="drawDateString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="591" pc="268443578" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="592" pc="268443582" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="593" pc="268443610" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="595" pc="268443664" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="596" pc="268443725" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="598" pc="268443761" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="599" pc="268443807" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="604" pc="268443895" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="605" pc="268443923" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="606" pc="268444008" symbol="drawTimeString"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="612" pc="268444094" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="614" pc="268444098" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="615" pc="268444115" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="618" pc="268444119" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="620" pc="268444147" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="621" pc="268444154" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="622" pc="268444171" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="623" pc="268444199" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="624" pc="268444231" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="625" pc="268444259" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="626" pc="268444316" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="628" pc="268444376" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="630" pc="268444393" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="631" pc="268444421" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="632" pc="268444478" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="633" pc="268444501" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="634" pc="268444508" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="636" pc="268444550" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="637" pc="268444603" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="640" pc="268444609" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="641" pc="268444665" symbol="drawComplication"/>
-        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="642" pc="268444723" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="24" lineNum="587" pc="268443495" symbol="drawDateString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="591" pc="268443596" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="592" pc="268443600" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="593" pc="268443628" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="595" pc="268443682" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="596" pc="268443743" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="598" pc="268443779" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="599" pc="268443825" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="604" pc="268443913" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="605" pc="268443941" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="25" lineNum="606" pc="268444026" symbol="drawTimeString"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="612" pc="268444112" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="614" pc="268444116" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="615" pc="268444133" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="618" pc="268444137" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="620" pc="268444165" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="621" pc="268444172" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="622" pc="268444189" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="623" pc="268444217" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="624" pc="268444249" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="625" pc="268444277" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="626" pc="268444334" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="628" pc="268444394" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="630" pc="268444411" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="631" pc="268444439" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="632" pc="268444496" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="633" pc="268444519" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="634" pc="268444526" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="636" pc="268444568" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="637" pc="268444621" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="640" pc="268444627" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="641" pc="268444683" symbol="drawComplication"/>
+        <entry filename="/home/dev/dev-env/self/essential/source/essentialView.mc" id="26" lineNum="642" pc="268444741" symbol="drawComplication"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="109" symbol="restoreFromResume"/>
+        <entry field="true" id="111" symbol="restoreFromResume"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="140" method="true" symbol="switchCol"/>
+        <entry id="142" method="true" symbol="switchCol"/>
         <entry field="true" id="45" symbol="lessSmallFont"/>
         <entry field="true" id="16" symbol="VenuRate"/>
         <entry field="true" id="66" symbol="smallFont"/>
@@ -357,41 +357,41 @@
         <entry field="true" id="26" symbol="MediumFont"/>
         <entry field="true" id="14" symbol="StairsIcon"/>
         <entry field="true" id="13" symbol="VenuStairs"/>
-        <entry id="139" method="true" symbol="getSett"/>
+        <entry id="141" method="true" symbol="getSett"/>
         <entry field="true" id="24" symbol="XXLSmallFont"/>
         <entry field="true" id="44" symbol="colVibrRed"/>
         <entry field="true" id="60" symbol="colBg"/>
-        <entry field="true" id="131" symbol="percentage"/>
-        <entry field="true" id="123" symbol="datafield"/>
+        <entry field="true" id="133" symbol="percentage"/>
+        <entry field="true" id="125" symbol="datafield"/>
         <entry field="true" id="71" symbol="colLightGray"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-        <entry field="true" id="98" symbol="stepBarThickness"/>
+        <entry field="true" id="100" symbol="stepBarThickness"/>
         <entry field="true" id="85" symbol="scrHeight"/>
         <entry field="true" id="54" symbol="stepsAndGoal"/>
         <entry field="true" id="81" symbol="twelveHClock"/>
         <entry field="true" id="42" symbol="colVibrGreen"/>
         <entry field="true" id="30" symbol="BiggerMassiveFont"/>
-        <entry field="true" id="103" symbol="stepPerY"/>
+        <entry field="true" id="105" symbol="stepPerY"/>
         <entry field="true" id="61" symbol="dontdraw"/>
-        <entry field="true" id="110" symbol="fontSizeTime"/>
-        <entry field="true" id="135" symbol="dateString"/>
+        <entry field="true" id="112" symbol="fontSizeTime"/>
+        <entry field="true" id="137" symbol="dateString"/>
         <entry field="true" id="57" symbol="StairsField"/>
-        <entry id="142" method="true" symbol="venuUpdate"/>
+        <entry id="144" method="true" symbol="venuUpdate"/>
         <entry field="true" id="33" symbol="GoalAndPercentage"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="25" symbol="XXXLSmallFont"/>
         <entry field="true" id="35" symbol="colGray"/>
         <entry id="9" object="true" symbol="essentialWatch"/>
-        <entry field="true" id="115" symbol="tmpDraw"/>
+        <entry field="true" id="117" symbol="tmpDraw"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="28" symbol="XMediumFont"/>
         <entry field="true" id="39" symbol="leadingHourZero"/>
         <entry field="true" id="15" symbol="HeartRate"/>
-        <entry field="true" id="125" symbol="app"/>
-        <entry field="true" id="137" symbol="goalDrawn"/>
+        <entry field="true" id="127" symbol="app"/>
+        <entry field="true" id="139" symbol="goalDrawn"/>
         <entry field="true" id="95" symbol="colTRANSPARENT"/>
         <entry field="true" id="50" symbol="colWhite"/>
-        <entry id="147" method="true" symbol="drawDateString"/>
+        <entry id="149" method="true" symbol="drawDateString"/>
         <entry field="true" id="65" symbol="AppName"/>
         <entry field="true" id="47" symbol="all"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
@@ -399,40 +399,41 @@
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry field="true" id="55" symbol="regFont"/>
         <entry field="true" id="8388912" symbol="steps"/>
-        <entry field="true" id="102" symbol="stepY"/>
+        <entry field="true" id="104" symbol="stepY"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8390097" method="true" symbol="onPartialUpdate"/>
         <entry field="true" id="63" symbol="colDate"/>
-        <entry field="true" id="132" symbol="complicationIcon"/>
-        <entry field="true" id="138" symbol="activityInfo"/>
+        <entry field="true" id="134" symbol="complicationIcon"/>
+        <entry field="true" id="140" symbol="activityInfo"/>
         <entry field="true" id="8389024" object="true" symbol="DataField"/>
-        <entry field="true" id="133" symbol="battPercent"/>
+        <entry field="true" id="135" symbol="battPercent"/>
         <entry field="true" id="59" symbol="massiveFont"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="91" symbol="colGRAY"/>
         <entry field="true" id="34" symbol="colVibrBlue"/>
         <entry field="true" id="69" symbol="stupidTwelveHClock"/>
         <entry id="10" object="true" symbol="EssentialView"/>
-        <entry field="true" id="96" symbol="sy"/>
-        <entry field="true" id="107" symbol="sx"/>
+        <entry field="true" id="98" symbol="sy"/>
+        <entry field="true" id="109" symbol="sx"/>
         <entry field="true" id="46" symbol="dodraw"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry field="true" id="29" symbol="MassiveFont"/>
         <entry field="true" id="22" symbol="XSmallFont"/>
         <entry id="12" module="true" symbol="Menus"/>
-        <entry field="true" id="124" symbol="alwaysRedrawBG"/>
+        <entry field="true" id="96" symbol="dayOfWeekArr"/>
+        <entry field="true" id="126" symbol="alwaysRedrawBG"/>
         <entry field="true" id="74" symbol="defaultFont"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
-        <entry field="true" id="121" symbol="fullRedraw"/>
-        <entry field="true" id="126" symbol="time"/>
-        <entry field="true" id="122" symbol="needsRedraw"/>
+        <entry field="true" id="123" symbol="fullRedraw"/>
+        <entry field="true" id="128" symbol="time"/>
+        <entry field="true" id="124" symbol="needsRedraw"/>
         <entry field="true" id="93" symbol="colDATE"/>
-        <entry id="149" method="true" symbol="drawComplication"/>
-        <entry field="true" id="99" symbol="arcYPoint"/>
+        <entry id="151" method="true" symbol="drawComplication"/>
+        <entry field="true" id="101" symbol="arcYPoint"/>
         <entry field="true" id="76" symbol="colTime"/>
-        <entry field="true" id="117" symbol="venuSleep"/>
+        <entry field="true" id="119" symbol="venuSleep"/>
         <entry field="true" id="20" symbol="SmallFont"/>
         <entry field="true" id="75" symbol="XmassiveFont"/>
         <entry field="true" id="36" symbol="EmptyField"/>
@@ -440,61 +441,61 @@
         <entry field="true" id="79" symbol="biggerFont"/>
         <entry field="true" id="31" symbol="XMassiveFont"/>
         <entry field="true" id="40" symbol="colSubtYel"/>
-        <entry field="true" id="100" symbol="Font"/>
-        <entry field="true" id="141" symbol="venuOffset"/>
+        <entry field="true" id="102" symbol="Font"/>
+        <entry field="true" id="143" symbol="venuOffset"/>
         <entry field="true" id="27" symbol="BiggerMediumFont"/>
-        <entry field="true" id="105" symbol="venuY"/>
+        <entry field="true" id="107" symbol="venuY"/>
         <entry field="true" id="80" symbol="bigFont"/>
-        <entry field="true" id="129" symbol="dateYM"/>
-        <entry field="true" id="130" symbol="dateYD"/>
+        <entry field="true" id="131" symbol="dateYM"/>
+        <entry field="true" id="132" symbol="dateYD"/>
         <entry field="true" id="92" symbol="colWHITE"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
-        <entry field="true" id="120" symbol="goal"/>
+        <entry field="true" id="122" symbol="goal"/>
         <entry field="true" id="43" symbol="timeFont"/>
         <entry field="true" id="88" symbol="colBLACK"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry field="true" id="83" symbol="venuAlwaysOn"/>
-        <entry id="144" method="true" symbol="switchCol3"/>
-        <entry id="143" method="true" symbol="switchCol2"/>
+        <entry id="146" method="true" symbol="switchCol3"/>
+        <entry id="145" method="true" symbol="switchCol2"/>
         <entry field="true" id="53" symbol="colAccent"/>
-        <entry id="148" method="true" symbol="drawTimeString"/>
+        <entry id="150" method="true" symbol="drawTimeString"/>
         <entry field="true" id="77" symbol="colSubtRed"/>
         <entry field="true" id="52" symbol="colSubtGreen"/>
         <entry field="true" id="56" symbol="colGoal"/>
         <entry field="true" id="90" symbol="colTIME"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="108" symbol="screenCanBurn"/>
+        <entry field="true" id="110" symbol="screenCanBurn"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="128" symbol="timeMY"/>
+        <entry field="true" id="130" symbol="timeMY"/>
         <entry field="true" id="18" symbol="LauncherIcon"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="127" symbol="timeHY"/>
+        <entry field="true" id="129" symbol="timeHY"/>
         <entry field="true" id="82" symbol="onlyGoal"/>
         <entry field="true" id="68" symbol="colSubtBlue"/>
-        <entry field="true" id="106" symbol="venuY2"/>
+        <entry field="true" id="108" symbol="venuY2"/>
         <entry field="true" id="78" symbol="colFuchsia"/>
-        <entry field="true" id="97" symbol="battCircleThickness"/>
-        <entry field="true" id="116" symbol="drawZero"/>
+        <entry field="true" id="99" symbol="battCircleThickness"/>
+        <entry field="true" id="118" symbol="drawZero"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="118" symbol="alwaysOn"/>
-        <entry field="true" id="104" symbol="stepGoalX"/>
-        <entry field="true" id="136" symbol="oldDayOfWeek"/>
+        <entry field="true" id="120" symbol="alwaysOn"/>
+        <entry field="true" id="106" symbol="stepGoalX"/>
+        <entry field="true" id="138" symbol="oldDayOfWeek"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="114" symbol="timeStr2"/>
-        <entry field="true" id="113" symbol="timeStr1"/>
+        <entry field="true" id="116" symbol="timeStr2"/>
+        <entry field="true" id="115" symbol="timeStr1"/>
         <entry field="true" id="67" symbol="stepsConfig"/>
         <entry field="true" id="62" symbol="dateFont"/>
-        <entry id="145" method="true" symbol="drawBattComplication"/>
+        <entry id="147" method="true" symbol="drawBattComplication"/>
         <entry field="true" id="89" symbol="colACCENT"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry field="true" id="86" symbol="scrRadius"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry field="true" id="84" symbol="explainer"/>
         <entry field="true" id="94" symbol="colGOAL"/>
-        <entry id="146" method="true" symbol="drawStepComplication"/>
-        <entry field="true" id="112" symbol="drwSteps"/>
+        <entry id="148" method="true" symbol="drawStepComplication"/>
+        <entry field="true" id="114" symbol="drwSteps"/>
         <entry field="true" id="58" symbol="logicalClock"/>
         <entry field="true" id="48" symbol="AppVersionTitle"/>
         <entry id="11" module="true" symbol="Layouts"/>
@@ -502,7 +503,7 @@
         <entry field="true" id="38" symbol="onlySteps"/>
         <entry field="true" id="49" symbol="nothing"/>
         <entry field="true" id="21" symbol="BiggerSmallFont"/>
-        <entry field="true" id="101" symbol="DrawStepsStuff"/>
+        <entry field="true" id="103" symbol="DrawStepsStuff"/>
         <entry field="true" id="41" symbol="stepsAndPercentage"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry field="true" id="72" symbol="colDarkGray"/>
@@ -510,13 +511,14 @@
         <entry field="true" id="19" symbol="XTinyFont"/>
         <entry field="true" id="64" symbol="colVibrYel"/>
         <entry field="true" id="51" symbol="HRField"/>
-        <entry field="true" id="119" symbol="drwBatt"/>
+        <entry field="true" id="121" symbol="drwBatt"/>
         <entry field="true" id="73" symbol="noLeadingHourZero"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389023" object="true" symbol="View"/>
         <entry field="true" id="87" symbol="i"/>
-        <entry field="true" id="111" symbol="fontSizeDate"/>
-        <entry field="true" id="134" symbol="oldBattPercent"/>
+        <entry field="true" id="113" symbol="fontSizeDate"/>
+        <entry field="true" id="97" symbol="monthOfYear"/>
+        <entry field="true" id="136" symbol="oldBattPercent"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
@@ -532,11 +534,11 @@
         <entry endPc="268442245" name="dc" stackId="1" startPc="268441694"/>
         <entry endPc="268443265" name="math" stackId="2" startPc="268442249"/>
         <entry endPc="268443266" name="dc" stackId="1" startPc="268442245"/>
-        <entry endPc="268443578" name="dc" stackId="1" startPc="268443266"/>
-        <entry endPc="268444094" name="dc" stackId="1" startPc="268443578"/>
-        <entry endPc="268444606" name="hr" stackId="3" startPc="268444393"/>
-        <entry endPc="268444726" name="tmp" stackId="2" startPc="268444098"/>
-        <entry endPc="268444727" name="dc" stackId="1" startPc="268444094"/>
+        <entry endPc="268443596" name="dc" stackId="1" startPc="268443266"/>
+        <entry endPc="268444112" name="dc" stackId="1" startPc="268443596"/>
+        <entry endPc="268444624" name="hr" stackId="3" startPc="268444411"/>
+        <entry endPc="268444744" name="tmp" stackId="2" startPc="268444116"/>
+        <entry endPc="268444745" name="dc" stackId="1" startPc="268444112"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>

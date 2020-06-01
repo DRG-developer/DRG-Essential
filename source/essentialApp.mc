@@ -29,7 +29,7 @@ class essentialWatch extends Application.AppBase
     // This method runs each time the main application starts.
     function getInitialView() {
 			View = new EssentialView();
-				Ui.requestUpdate();
+			Ui.requestUpdate();
             return [View];
     }
 

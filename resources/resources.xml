@@ -1,18 +1,18 @@
 <resources>
     <fonts>
-		<font id="XTinyFont" filename="fonts/XTinyFont.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="SmallFont" filename="fonts/15px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="BiggerSmallFont" filename="fonts/16px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="XSmallFont" filename="fonts/17px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="XLSmallFont" filename="fonts/18px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="XXLSmallFont" filename="fonts/19px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="XXXLSmallFont" filename="fonts/20px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
-        <font id="MediumFont" filename="fonts/45px-ariel.fnt" filter="0123456789" />
-        <font id="BiggerMediumFont" filename="fonts/50px-ariel.fnt" filter="0123456789" />
-        <font id="XMediumFont" filename="fonts/55px-ariel.fnt" filter="0123456789" />
-        <font id="MassiveFont" filename="fonts/90px-ariel-bold.fnt" filter="0123456789" />
-        <font id="BiggerMassiveFont" filename="fonts/100px-ariel-bold.fnt" filter="0123456789" />
-        <font id="XMassiveFont" filename="fonts/110px-ariel-bold.fnt" filter="0123456789" />
-        <font id="icons" filename="fonts/icons.fnt" filter=""/>
+		<font id="XTinyFont" antialias="true" filename="fonts/XTinyFont.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="SmallFont" antialias="true" filename="fonts/15px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="BiggerSmallFont" antialias="true" filename="fonts/16px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="XSmallFont" antialias="true" filename="fonts/17px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="XLSmallFont" antialias="true" filename="fonts/18px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="XXLSmallFont" antialias="true" filename="fonts/19px-ariel.fnt" filter="0123456789%abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()-_@#=:! " />
+        <font id="XXXLSmallFont" antialias="true" filename="fonts/20px-ariel.fnt"  />
+        <font id="MediumFont" antialias="true" filename="fonts/45px-ariel.fnt" filter="0123456789" />
+        <font id="BiggerMediumFont" antialias="true" filename="fonts/50px-ariel.fnt" filter="0123456789" />
+        <font id="XMediumFont" antialias="true" filename="fonts/55px-ariel.fnt" filter="0123456789" />
+        <font id="MassiveFont" antialias="true" filename="fonts/90px-ariel-bold.fnt" filter="0123456789" />
+        <font id="BiggerMassiveFont" antialias="true" filename="fonts/100px-ariel-bold.fnt" filter="0123456789" />
+        <font id="XMassiveFont" antialias="true" filename="fonts/110px-ariel-bold.fnt" filter="0123456789" />
+        <font id="icons" antialias="true" filename="fonts/icons.fnt" filter=""/>
     </fonts>
 </resources>
