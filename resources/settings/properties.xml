@@ -2,15 +2,18 @@
 	<property id="AppVersion" type="string">0.0.9</property>
 	<property id="redrawFullScr" type="number">1</property>
 	<property id="DataField" type="number">1</property>
-	<property id="colAccent" type="number">11</property>
-	<property id="colDate" type="number">11</property>
-	<property id="colGray" type="number">4</property>
-	<property id="colTime" type="number">4</property>
-	<property id="colGoal" type="number">4</property>
-	<property id="colBg" type="number">5</property>
+	<property id="colAccent2" type="number">43775</property>
+	<property id="colDate2" type="number">43775</property>
+	<property id="colGray2" type="number">16777215</property>
+	<property id="colTime2" type="number">16777215</property>
+	<property id="colGoal2" type="number">16777215</property>
+	<property id="colBg2" type="number">0</property>
 	<property id="timeFont" type="number">1</property>
 	<property id="dateFont" type="number">2</property>
-	<property id="stepsConfig" type="number">0</property>
+	<property id="drawsteps" type="boolean">true</property>
+	<property id="drawgoal" type="boolean">true</property>
+	<property id="drawpercentage" type="boolean">true</property>
+	<property id="drawpast100perc" type="boolean"> false </property>
 	<property id="leadingHourZero" type="number">0</property>
 	<property id="twelveHClock" type="number">0</property>
 	<property id="venuAlwaysOn" type="boolean">true</property>

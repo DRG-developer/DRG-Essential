@@ -49,7 +49,7 @@ class EssentialView extends WatchUi.WatchFace {
 		
 
 		
-		var DrawStepsStuff = [true, true, true];
+		var DrawStepsStuff = [true, true, true]; /* steps, percentage, gaol */
 		
 		
 		
@@ -61,6 +61,7 @@ class EssentialView extends WatchUi.WatchFace {
 		var venuY = 0;
 		var venuY2 = 0;
 		var sx = 0;
+		var drawpast100perc = false;
 		
 		var screenCanBurn = false;
 		/* CHANGE TO JSONS OR SETTNGS, WHATEVER< JUST SMARTER*/
@@ -177,7 +178,7 @@ class EssentialView extends WatchUi.WatchFace {
 				
 			
 				Font[0] = WatchUi.loadResource(Rez.Fonts.XSmallFont);
-				Font[1]  = WatchUi.loadResource(Rez.Fonts.XXXLSmallFont);
+				Font[1]  = Graphics.FONT_XTINY;
 				battCircleThickness = 10;
 				stepBarThickness = 8;
 			}
@@ -216,71 +217,28 @@ class EssentialView extends WatchUi.WatchFace {
 		
 		
 		function getSett(){
-			colGRAY       = switchCol(app.getProperty("colGray"));
-			colACCENT     = switchCol(app.getProperty("colAccent"));
-			colTIME       = switchCol(app.getProperty("colTime"));
-			colBLACK      = switchCol(app.getProperty("colBg"));
-			colDATE       = switchCol(app.getProperty("colDate")); 
-			colGOAL       = switchCol(app.getProperty("colGoal"));
-			Font[3]          = switchCol2(app.getProperty("timeFont"), 0);
-			Font[2]         = switchCol2(app.getProperty("timeFont"), 1);
-			Font[1]         = switchCol2(app.getProperty("dateFont"), 2);
+			colGRAY       = app.getProperty("colGray2");
+			colACCENT     = app.getProperty("colAccent2");
+			colTIME       = app.getProperty("colTime2");
+			colBLACK      = app.getProperty("colBg2");
+			colDATE       = app.getProperty("colDate2"); 
+			colGOAL       = app.getProperty("colGoal2");
+			Font[3]       = switchCol2(app.getProperty("timeFont"), 0);
+			Font[2]       = switchCol2(app.getProperty("timeFont"), 1);
+			Font[1]       = switchCol2(app.getProperty("dateFont"), 2);
 			drawZero      = app.getProperty("leadingHourZero");
 			twelveHClock  = app.getProperty("twelveHClock");
 			alwaysOn      = app.getProperty("venuAlwaysOn");
-			switchCol3(app.getProperty("stepsConfig"));
+			DrawStepsStuff[0] = app.getProperty("drawsteps");
+			DrawStepsStuff[1] = app.getProperty("drawpercentage");
+			DrawStepsStuff[2] = app.getProperty("drawgoal");
+			drawpast100perc   = app.getProperty("drawpast100perc");
 			colWHITE      = 0xFFFFFF;
 			//colBLACK      = 0x000000;
 			alwaysRedrawBG  = app.getProperty("redrawFullScr");
 			datafield     = app.getProperty("DataField");
 		}
-		
-		function switchCol(x){
-			
-			switch(x) {
-			case 0:
-				return 0xFFFF55;
-				break;		
-			case 1:
-				return 0xFFFF00;
-				break;	
-			case 2:
-				return 0xAAAAAA;
-				break;		
-			case 3:
-				return 0x555555;
-				break; 			
-			case 4:
-				return 0xFFFFFF;
-				break;			
-			case 5:
-				return 0x000000;
-				break;		
-			case 6:
-				return 0xAA0000;
-				break;	
-			case 7:
-				return 0xFF0000;
-				break;	
-			case 8:
-				return 0x00AA00;
-				break;	
-			case 9:
-				return 0x00FF00;			
-			case 10:
-				return 0x0000FF;
-				break;			
-			case 11:
-				return 0x00AAFF;
-				break;
-			case 12:
-				return 0xFF00FF;
-				break;
-			default:
-				break;
-		}
-			
-	}
+
 		/* DEPRECATED */
 		var venuOffset = [0, 0, 1];
 
@@ -359,56 +317,7 @@ function venuUpdate(dc){
 					}
 				}
 		}
-		function switchCol3(x){
-				switch (x){
-				case 0:
-					DrawStepsStuff[0] = true;
-					DrawStepsStuff[2] = true;
-					DrawStepsStuff[1] = true;
-					break;
-				case 1:
-					DrawStepsStuff[0] = false;
-					DrawStepsStuff[2] = true;
-					DrawStepsStuff[1] = false;
-					break;
-				case 2:
-					DrawStepsStuff[0] = true;
-					DrawStepsStuff[2] = false;
-					DrawStepsStuff[1] = false;
-					break;
-				case 3:
-					DrawStepsStuff[0] = false;
-					DrawStepsStuff[2] = false;
-					DrawStepsStuff[1]  = true;
-					break;
-				case 4:
-					DrawStepsStuff[0] = false;
-					DrawStepsStuff[2] = true;
-					DrawStepsStuff[1] = true;
-					break;
-				case 5:
-					DrawStepsStuff[0] = true;
-					DrawStepsStuff[2] = true;
-					DrawStepsStuff[1] = false;
-					break;
-				case 6:
-					DrawStepsStuff[0] = true;
-					DrawStepsStuff[2] = false;
-					DrawStepsStuff[1] = true;
-					break;
-				case 7:
-					DrawStepsStuff[0] = false;
-					DrawStepsStuff[2] = false;
-					DrawStepsStuff[1] = false;
-					break;
-				default:
-					DrawStepsStuff[0] = true;
-					DrawStepsStuff[2] = true;
-					DrawStepsStuff[1] = true;
-					break;
-				}
-			
-		}
+		
 		
 		function onShow(){
 				restoreFromResume = 0;
@@ -557,7 +466,7 @@ function venuUpdate(dc){
 			
 			dc.setColor(colACCENT, colBLACK);
 			
-			if(steps > goal){
+			if(steps > goal && drawpast100perc == false){
 				 drwSteps = goal;
 			} else {
 					drwSteps = steps;

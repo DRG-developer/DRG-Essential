@@ -21,16 +21,11 @@
     <string id="stupidTwelveHClock"> use the 12h clock</string>
     <string id="twelveHClock"> 24 or 12 hour clock</string>
     
-    <string id="stepsConfig">options for cleaner step complication</string>
-    <string id="all">draw everything</string>
-    <string id="onlyGoal">draw only the goal</string>
-    <string id="onlyPercentage">draw only the percentage</string>
-    <string id="onlySteps">draw only the amount of steps</string>
-    <string id="stepsAndGoal">draw only the steps and goal</string>
-    <string id="GoalAndPercentage">draw the goal and percentage</string>
-    <string id="stepsAndPercentage">draw only the steps and percentage</string>
-    <string id="nothing">draw nothing (only the bar)</string>
-    <string id="venuAlwaysOn">(VENU ONLY) have the screen always on </string>
+    <string id="drawsteps"> draw the step count </string>
+    <string id="venuAlwaysOn">(ONLY FOR VENU) have the screen always on</string>
+    <string id="drawgoal"> draw the percentage of goal complete </string>
+    <string id="drawpercentage"> draw the steps goal </string>
+    <string id="drawpast100perc">stop the percentage at 100% </string>
     
     <string id="colVibrYel"> vibrant yellow </string>
     <string id="colSubtYel"> more subtile yellow </string>

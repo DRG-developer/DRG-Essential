@@ -17,72 +17,30 @@
 		</settingConfig>
 	</setting>
 	
-	<setting propertyKey="@Properties.colGray" title="@Strings.colGray">
-		<settingConfig type="list">
-			<listEntry value="0">@Strings.colSubtYel</listEntry>
-			<listEntry value="1">@Strings.colVibrYel</listEntry>
-			<listEntry value="2">@Strings.colLightGray</listEntry>
-			<listEntry value="3">@Strings.colDarkGray</listEntry>
-			<listEntry value="4">@Strings.colWhite</listEntry>
-			<listEntry value="5">@Strings.colBlack</listEntry>	
-			<listEntry value="6">@Strings.colSubtRed</listEntry>	
-			<listEntry value="7">@Strings.colVibrRed</listEntry>	
-			<listEntry value="8">@Strings.colSubtGreen</listEntry>	
-			<listEntry value="9">@Strings.colVibrGreen</listEntry>
-			<listEntry value="10">@Strings.colSubtBlue</listEntry>	
-			<listEntry value="11">@Strings.colVibrBlue</listEntry>	
-			<listEntry value="12">@Strings.colFuchsia</listEntry>	
-		</settingConfig>
-	</setting>
+
+
 	
-		<setting propertyKey="@Properties.stepsConfig" title="@Strings.stepsConfig">
-		<settingConfig type="list">
-			<listEntry value="0">@Strings.all</listEntry>
-			<listEntry value="1">@Strings.onlyGoal</listEntry>
-			<listEntry value="2">@Strings.onlyPercentage</listEntry>
-			<listEntry value="3">@Strings.onlySteps</listEntry>
-			<listEntry value="4">@Strings.stepsAndGoal</listEntry>
-			<listEntry value="5">@Strings.GoalAndPercentage</listEntry>	
-			<listEntry value="6">@Strings.stepsAndPercentage</listEntry>	
-			<listEntry value="7">@Strings.nothing</listEntry>	
+	 <setting propertyKey="@Properties.drawpercentage" title="@Strings.drawpercentage">
+		<settingConfig type="boolean">
 		</settingConfig>
-	</setting>
+	 </setting>
+	 <setting propertyKey="@Properties.drawgoal" title="@Strings.drawgoal">
+		<settingConfig type="boolean">
+		</settingConfig>
+	 </setting>
+	 <setting propertyKey="@Properties.drawsteps" title="@Strings.drawsteps">
+		<settingConfig type="boolean">
+		</settingConfig>
+	 </setting>
+	 <setting propertyKey="@Properties.drawpast100perc" title="@Strings.drawpast100perc">
+		<settingConfig type="boolean">
+		</settingConfig>
+	 </setting>
+	 
+	 
 	
-	<setting propertyKey="@Properties.colBg" title="@Strings.colBg">
-		<settingConfig type="list">
-			<listEntry value="0">@Strings.colSubtYel</listEntry>
-			<listEntry value="1">@Strings.colVibrYel</listEntry>
-			<listEntry value="2">@Strings.colLightGray</listEntry>
-			<listEntry value="3">@Strings.colDarkGray</listEntry>
-			<listEntry value="4">@Strings.colWhite</listEntry>
-			<listEntry value="5">@Strings.colBlack</listEntry>	
-			<listEntry value="6">@Strings.colSubtRed</listEntry>	
-			<listEntry value="7">@Strings.colVibrRed</listEntry>	
-			<listEntry value="8">@Strings.colSubtGreen</listEntry>	
-			<listEntry value="9">@Strings.colVibrGreen</listEntry>
-			<listEntry value="10">@Strings.colSubtBlue</listEntry>	
-			<listEntry value="11">@Strings.colVibrBlue</listEntry>	
-			<listEntry value="12">@Strings.colFuchsia</listEntry>	
-		</settingConfig>
-	</setting>
 	
-	<setting propertyKey="@Properties.colGoal" title="@Strings.colGoal">
-		<settingConfig type="list">
-			<listEntry value="0">@Strings.colSubtYel</listEntry>
-			<listEntry value="1">@Strings.colVibrYel</listEntry>
-			<listEntry value="2">@Strings.colLightGray</listEntry>
-			<listEntry value="3">@Strings.colDarkGray</listEntry>
-			<listEntry value="4">@Strings.colWhite</listEntry>
-			<listEntry value="5">@Strings.colBlack</listEntry>	
-			<listEntry value="6">@Strings.colSubtRed</listEntry>	
-			<listEntry value="7">@Strings.colVibrRed</listEntry>	
-			<listEntry value="8">@Strings.colSubtGreen</listEntry>	
-			<listEntry value="9">@Strings.colVibrGreen</listEntry>
-			<listEntry value="10">@Strings.colSubtBlue</listEntry>	
-			<listEntry value="11">@Strings.colVibrBlue</listEntry>	
-			<listEntry value="12">@Strings.colFuchsia</listEntry>	
-		</settingConfig>
-	</setting>
+	
 	
 	<setting propertyKey="@Properties.timeFont" title="@Strings.timeFont">
 		<settingConfig type="list">
@@ -123,62 +81,115 @@
 	
 	
 	
-	<setting propertyKey="@Properties.colTime" title="@Strings.colTime">
+	<setting propertyKey="@Properties.colTime2" title="@Strings.colTime">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.colSubtYel</listEntry>
-			<listEntry value="1">@Strings.colVibrYel</listEntry>
-			<listEntry value="2">@Strings.colLightGray</listEntry>
-			<listEntry value="3">@Strings.colDarkGray</listEntry>
-			<listEntry value="4">@Strings.colWhite</listEntry>
-			<listEntry value="5">@Strings.colBlack</listEntry>	
-			<listEntry value="6">@Strings.colSubtRed</listEntry>	
-			<listEntry value="7">@Strings.colVibrRed</listEntry>	
-			<listEntry value="8">@Strings.colSubtGreen</listEntry>	
-			<listEntry value="9">@Strings.colVibrGreen</listEntry>
-			<listEntry value="10">@Strings.colSubtBlue</listEntry>	
-			<listEntry value="11">@Strings.colVibrBlue</listEntry>	
-			<listEntry value="12">@Strings.colFuchsia</listEntry>				
+			<listEntry value="16777045">@Strings.colSubtYel</listEntry>
+			<listEntry value="16776960">@Strings.colVibrYel</listEntry>
+			<listEntry value="11184810">@Strings.colLightGray</listEntry>
+			<listEntry value="5592405">@Strings.colDarkGray</listEntry>
+			<listEntry value="16777215">@Strings.colWhite</listEntry>
+			<listEntry value="0">@Strings.colBlack</listEntry>	
+			<listEntry value="11141120">@Strings.colSubtRed</listEntry>	
+			<listEntry value="16711680">@Strings.colVibrRed</listEntry>	
+			<listEntry value="43520">@Strings.colSubtGreen</listEntry>	
+			<listEntry value="65280">@Strings.colVibrGreen</listEntry>
+			<listEntry value="255">@Strings.colSubtBlue</listEntry>	
+			<listEntry value="43775">@Strings.colVibrBlue</listEntry>	
+			<listEntry value="16711935">@Strings.colFuchsia</listEntry>				
 		</settingConfig>
 	</setting>
 	
-	<setting propertyKey="@Properties.colDate" title="@Strings.colDate">
+	<setting propertyKey="@Properties.colDate2" title="@Strings.colDate">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.colSubtYel</listEntry>
-			<listEntry value="1">@Strings.colVibrYel</listEntry>
-			<listEntry value="2">@Strings.colLightGray</listEntry>
-			<listEntry value="3">@Strings.colDarkGray</listEntry>
-			<listEntry value="4">@Strings.colWhite</listEntry>
-			<listEntry value="5">@Strings.colBlack</listEntry>	
-			<listEntry value="6">@Strings.colSubtRed</listEntry>	
-			<listEntry value="7">@Strings.colVibrRed</listEntry>	
-			<listEntry value="8">@Strings.colSubtGreen</listEntry>	
-			<listEntry value="9">@Strings.colVibrGreen</listEntry>
-			<listEntry value="10">@Strings.colSubtBlue</listEntry>	
-			<listEntry value="11">@Strings.colVibrBlue</listEntry>	
-			<listEntry value="12">@Strings.colFuchsia</listEntry>				
+			<listEntry value="16777045">@Strings.colSubtYel</listEntry>
+			<listEntry value="16776960">@Strings.colVibrYel</listEntry>
+			<listEntry value="11184810">@Strings.colLightGray</listEntry>
+			<listEntry value="5592405">@Strings.colDarkGray</listEntry>
+			<listEntry value="16777215">@Strings.colWhite</listEntry>
+			<listEntry value="0">@Strings.colBlack</listEntry>	
+			<listEntry value="11141120">@Strings.colSubtRed</listEntry>	
+			<listEntry value="16711680">@Strings.colVibrRed</listEntry>	
+			<listEntry value="43520">@Strings.colSubtGreen</listEntry>	
+			<listEntry value="65280">@Strings.colVibrGreen</listEntry>
+			<listEntry value="255">@Strings.colSubtBlue</listEntry>	
+			<listEntry value="43775">@Strings.colVibrBlue</listEntry>	
+			<listEntry value="16711935">@Strings.colFuchsia</listEntry>				
 		</settingConfig>
 	</setting>
 	
 	
 	
-	<setting propertyKey="@Properties.colAccent" title="@Strings.colAccent">
+	<setting propertyKey="@Properties.colAccent2" title="@Strings.colAccent">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.colSubtYel</listEntry>
-			<listEntry value="1">@Strings.colVibrYel</listEntry>
-			<listEntry value="2">@Strings.colLightGray</listEntry>
-			<listEntry value="3">@Strings.colDarkGray</listEntry>
-			<listEntry value="4">@Strings.colWhite</listEntry>
-			<listEntry value="5">@Strings.colBlack</listEntry>		
-			<listEntry value="6">@Strings.colSubtRed</listEntry>	
-			<listEntry value="7">@Strings.colVibrRed</listEntry>	
-			<listEntry value="8">@Strings.colSubtGreen</listEntry>	
-			<listEntry value="9">@Strings.colVibrGreen</listEntry>
-			<listEntry value="10">@Strings.colSubtBlue</listEntry>	
-			<listEntry value="11">@Strings.colVibrBlue</listEntry>
-			<listEntry value="12">@Strings.colFuchsia</listEntry>				
+			<listEntry value="16777045">@Strings.colSubtYel</listEntry>
+			<listEntry value="16776960">@Strings.colVibrYel</listEntry>
+			<listEntry value="11184810">@Strings.colLightGray</listEntry>
+			<listEntry value="5592405">@Strings.colDarkGray</listEntry>
+			<listEntry value="16777215">@Strings.colWhite</listEntry>
+			<listEntry value="0">@Strings.colBlack</listEntry>		
+			<listEntry value="11141120">@Strings.colSubtRed</listEntry>	
+			<listEntry value="16711680">@Strings.colVibrRed</listEntry>	
+			<listEntry value="43520">@Strings.colSubtGreen</listEntry>	
+			<listEntry value="65280">@Strings.colVibrGreen</listEntry>
+			<listEntry value="255">@Strings.colSubtBlue</listEntry>	
+			<listEntry value="43775">@Strings.colVibrBlue</listEntry>
+			<listEntry value="16711935">@Strings.colFuchsia</listEntry>				
 		</settingConfig>
 	</setting>
 	
+	<setting propertyKey="@Properties.colBg2" title="@Strings.colBg">
+		<settingConfig type="list">
+			<listEntry value="16777045">@Strings.colSubtYel</listEntry>
+			<listEntry value="16776960">@Strings.colVibrYel</listEntry>
+			<listEntry value="11184810">@Strings.colLightGray</listEntry>
+			<listEntry value="5592405">@Strings.colDarkGray</listEntry>
+			<listEntry value="16777215">@Strings.colWhite</listEntry>
+			<listEntry value="0">@Strings.colBlack</listEntry>	
+			<listEntry value="11141120">@Strings.colSubtRed</listEntry>	
+			<listEntry value="16711680">@Strings.colVibrRed</listEntry>	
+			<listEntry value="43520">@Strings.colSubtGreen</listEntry>	
+			<listEntry value="65280">@Strings.colVibrGreen</listEntry>
+			<listEntry value="255">@Strings.colSubtBlue</listEntry>	
+			<listEntry value="43775">@Strings.colVibrBlue</listEntry>	
+			<listEntry value="16711935">@Strings.colFuchsia</listEntry>	
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.colGoal2" title="@Strings.colGoal">
+		<settingConfig type="list">
+			<listEntry value="16777045">@Strings.colSubtYel</listEntry>
+			<listEntry value="16776960">@Strings.colVibrYel</listEntry>
+			<listEntry value="11184810">@Strings.colLightGray</listEntry>
+			<listEntry value="5592405">@Strings.colDarkGray</listEntry>
+			<listEntry value="16777215">@Strings.colWhite</listEntry>
+			<listEntry value="0">@Strings.colBlack</listEntry>	
+			<listEntry value="11141120">@Strings.colSubtRed</listEntry>	
+			<listEntry value="16711680">@Strings.colVibrRed</listEntry>	
+			<listEntry value="43520">@Strings.colSubtGreen</listEntry>	
+			<listEntry value="65280">@Strings.colVibrGreen</listEntry>
+			<listEntry value="255">@Strings.colSubtBlue</listEntry>	
+			<listEntry value="43775">@Strings.colVibrBlue</listEntry>	
+			<listEntry value="16711935">@Strings.colFuchsia</listEntry>	
+		</settingConfig>
+	</setting>
+	
+		<setting propertyKey="@Properties.colGray2" title="@Strings.colGray">
+		<settingConfig type="list">
+			<listEntry value="16777045">@Strings.colSubtYel</listEntry>
+			<listEntry value="16776960">@Strings.colVibrYel</listEntry>
+			<listEntry value="11184810">@Strings.colLightGray</listEntry>
+			<listEntry value="5592405">@Strings.colDarkGray</listEntry>
+			<listEntry value="16777215">@Strings.colWhite</listEntry>
+			<listEntry value="0">@Strings.colBlack</listEntry>	
+			<listEntry value="11141120">@Strings.colSubtRed</listEntry>	
+			<listEntry value="16711680">@Strings.colVibrRed</listEntry>	
+			<listEntry value="43520">@Strings.colSubtGreen</listEntry>	
+			<listEntry value="65280">@Strings.colVibrGreen</listEntry>
+			<listEntry value="255">@Strings.colSubtBlue</listEntry>	
+			<listEntry value="43775">@Strings.colVibrBlue</listEntry>	
+			<listEntry value="16711935">@Strings.colFuchsia</listEntry>	
+		</settingConfig>
+	</setting>
 	
 
 	
